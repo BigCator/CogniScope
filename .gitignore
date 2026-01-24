@@ -33,3 +33,6 @@ __pycache__/
 docker_images/
 *.tar
 *.gz
+*.pt
+*.pth
+*.zip
