@@ -1,0 +1,2 @@
+my_image_transport
+-DCATKIN_DEVEL_PREFIX=/home/neousys/driver/ir_ws/devel -DCMAKE_INSTALL_PREFIX=/home/neousys/driver/ir_ws/install -G Unix Makefiles

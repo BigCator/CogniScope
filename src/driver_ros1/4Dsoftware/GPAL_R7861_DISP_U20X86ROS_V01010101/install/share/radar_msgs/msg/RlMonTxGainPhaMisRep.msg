@@ -1,0 +1,17 @@
+uint16      statusFlags
+uint16      errorCode
+uint8       profIndex
+uint8       noisePower00
+uint8       noisePower01
+uint8       noisePower02
+int16[9]    txGainVal
+uint16[9]   txPhaVal
+uint8       noisePower10
+uint8       noisePower11
+uint8       noisePower12
+uint8       noisePower20
+uint8       noisePower21
+uint8       noisePower22
+uint8       reserved0
+uint8       reserved1
+uint32      timeStamp

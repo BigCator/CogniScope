@@ -1,0 +1,1 @@
+/workspace/CogniScope/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py

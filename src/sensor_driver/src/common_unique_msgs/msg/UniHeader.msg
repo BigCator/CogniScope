@@ -1,0 +1,3 @@
+uint32 ui_msg_id
+uint32 ui_msg_datalength
+uint64 ul_msg_stamp

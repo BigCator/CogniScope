@@ -1,0 +1,35 @@
+<launch>
+
+    <param name="/use_sim_time" value="false"/>
+
+    <!-- set of the arguments -->
+    <arg name="calib_file" default="$(find pcd_output)/../calibration/tongji_new.conf" /> <!-- tf files path -->
+    <arg name="calib_file_rv" default="$(find pcd_output)/../calibration/tongji_old.conf" /> <!-- reversed tf files path -->
+    <arg name="output_path" default="$(find pcd_output)/../../data" /> <!-- pcd output path -->
+    <arg name="rd_num" default="6" /> <!-- radar number -->
+    <arg name="rd_freq" default="14" /> <!-- radar data FPS -->
+    <arg name="rd_freq_offline" default="5" /> <!-- radar data FPS when played offline-->
+    <arg name="pcl_show" default="1" /> <!-- switch for outputing point cloud in rviz -->
+    <arg name="pcd_output" default="0" /> <!-- switch for outputing pcd files -->
+    <arg name="rd_online" default="0" /> <!-- switch for receiving radar data online or offline -->
+
+    <!-- rviz -->
+    <group if="$(arg pcl_show)">
+        <node  name="rviz_pcd_show"  pkg="rviz"  type="rviz"  args="-d $(find pcd_output)/launch/pcd_show.rviz" output="screen"/>
+    </group>
+
+
+    <!-- Receive Data Begin, please don't change anything below!!! -->
+    <node pkg = "pcd_output" type = "pcd_output_n" name = "pcd_output_node" output = "screen">
+        <param name="calib_file_path" type="string" value="$(arg calib_file)" />
+        <param name="calib_file_reversed_path" type="string" value="$(arg calib_file_rv)" />
+        <param name="output_path" type="string" value="$(arg output_path)" />
+        <param name="rd_num" type="int" value="$(arg rd_num)" />
+        <param name="rd_freq" type="int" value="$(arg rd_freq)" if="$(arg rd_online)"/>
+        <param name="rd_freq" type="int" value="$(arg rd_freq_offline)" unless="$(arg rd_online)"/>
+        <param name="pcd_output" type="int" value="$(arg pcd_output)" />
+        <param name="pcl_show" type="int" value="$(arg pcl_show)" />
+    </node> 
+
+
+</launch>

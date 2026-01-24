@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/user/laserscan_ws/install/pointcloud_to_laserscan/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_sdf/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_rviz_plugin/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_pcl/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_filters/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_ros/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_octomap/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_msgs/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_cv/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_costmap_2d/include/**",
+        "/home/user/rviz_plugin/gridmap_ws/install/grid_map_core/include/**",
+        "/home/user/rviz_plugin/vision_msgs_ws/install/vision_msgs_rviz_plugins/include/**",
+        "/home/user/rviz_plugin/vision_msgs_ws/install/vision_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/user/laserscan_ws/src/pointcloud_to_laserscan-foxy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

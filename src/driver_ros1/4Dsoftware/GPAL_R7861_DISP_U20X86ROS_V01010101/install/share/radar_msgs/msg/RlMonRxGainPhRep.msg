@@ -1,0 +1,11 @@
+uint16      statusFlags
+uint16      errorCode
+uint8       profIndex
+uint8       loopbackPowerRF1
+uint8       loopbackPowerRF2
+uint8       loopbackPowerRF3
+uint16[12]  rxGainVal
+uint16[12]  rxPhaseVal
+uint32      rxNoisePower1
+uint32      rxNoisePower2
+uint32      timeStamp

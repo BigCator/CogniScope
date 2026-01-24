@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target imu5651_driver[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/imu5651_driver.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/imu5651_driver.dir/src/serial_reader.cpp.o[0m
+[100%] [32m[1mLinking CXX executable imu5651_driver[0m
+[100%] Built target imu5651_driver
+-- Install configuration: ""
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/lib/imu5651_driver/imu5651_driver
+-- Set runtime path of "/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/lib/imu5651_driver/imu5651_driver" to ""
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/ament_index/resource_index/package_run_dependencies/imu5651_driver
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/ament_index/resource_index/parent_prefix_path/imu5651_driver
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/environment/ament_prefix_path.sh
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/environment/ament_prefix_path.dsv
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/environment/path.sh
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/environment/path.dsv
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/local_setup.bash
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/local_setup.sh
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/local_setup.zsh
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/local_setup.dsv
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/package.dsv
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/ament_index/resource_index/packages/imu5651_driver
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/cmake/imu5651_driverConfig.cmake
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/cmake/imu5651_driverConfig-version.cmake
+-- Installing: /workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/package.xml

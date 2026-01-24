@@ -1,0 +1,5 @@
+execute_process(COMMAND "/home/neousys/driver/360_camera/360_camera_ws/build/rocon_devices/rocon_device_tools/rocon_python_hue/catkin_generated/python_distutils_install.sh" RESULT_VARIABLE res)
+
+if(NOT res EQUAL 0)
+  message(FATAL_ERROR "execute_process(/home/neousys/driver/360_camera/360_camera_ws/build/rocon_devices/rocon_device_tools/rocon_python_hue/catkin_generated/python_distutils_install.sh) returned error code ")
+endif()

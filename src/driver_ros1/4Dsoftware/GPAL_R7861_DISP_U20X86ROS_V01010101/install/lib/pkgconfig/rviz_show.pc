@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Downloads/customer_src_20230926/install
+
+Name: rviz_show
+Description: Description of rviz_show
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

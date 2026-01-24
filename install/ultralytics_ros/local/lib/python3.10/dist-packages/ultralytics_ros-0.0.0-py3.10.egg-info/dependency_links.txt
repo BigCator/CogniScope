@@ -1,0 +1,1 @@
+/workspace/CogniScope/build/ultralytics_ros/ament_cmake_python/ultralytics_ros/ultralytics_ros.egg-info/dependency_links.txt

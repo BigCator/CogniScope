@@ -1,0 +1,12 @@
+running develop
+running egg_info
+creating fusiondet.egg-info
+writing manifest file 'fusiondet.egg-info/SOURCES.txt'
+writing manifest file 'fusiondet.egg-info/SOURCES.txt'
+running build_ext
+running symlink_data
+creating /workspace/CogniScope/install/fusiondet/share/ament_index
+creating /workspace/CogniScope/install/fusiondet/share/ament_index/resource_index
+creating /workspace/CogniScope/install/fusiondet/share/ament_index/resource_index/packages
+symbolically linking /workspace/CogniScope/build/fusiondet/resource/fusiondet -> /workspace/CogniScope/install/fusiondet/share/ament_index/resource_index/packages
+symbolically linking /workspace/CogniScope/build/fusiondet/package.xml -> /workspace/CogniScope/install/fusiondet/share/fusiondet

@@ -1,0 +1,12 @@
+uint16      statusFlags
+uint16      errorCode
+uint8       profIndex
+uint8       reserved0
+int16       lpfCutOffBandEdgeDroopValRx0
+int8[8]     hpfCutOffFreqEr
+int8[8]     lpfCutOffStopBandAtten
+int8[8]     rxIfaGainErVal
+int8        ifGainExp
+uint8       reserved2
+int8[6]     lpfCutOffBandEdgeDroopValRx
+uint32      timeStamp

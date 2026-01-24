@@ -1,0 +1,9 @@
+<launch>
+
+<!-- 启动 ultrasonic_radar_node 节点 -->
+<node pkg="ultrasonic_radar" type="ultrasonic_radar_node" name="ultrasonic_radar_node" output="screen" />
+
+<!-- 启动 RViz 并加载特定的配置文件 -->
+<node pkg="rviz" type="rviz" name="rviz" output="screen" args="-d /home/neousys/driver/ultrasonic_radar_ws/rviz/ultrasonic.rviz" />
+
+</launch>

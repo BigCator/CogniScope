@@ -1,0 +1,18 @@
+[1.206s] Invoking command in '/workspace/CogniScope/build/fusion_tracker': PYTHONPATH=/workspace/CogniScope/build/fusion_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/CogniScope/install/fusion_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/CogniScope/build/fusion_tracker/build --no-deps symlink_data
+[1.462s] running develop
+[1.525s] /usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[1.525s]   warnings.warn(
+[1.618s] running egg_info
+[1.619s] creating fusion_tracker.egg-info
+[1.619s] writing manifest file 'fusion_tracker.egg-info/SOURCES.txt'
+[1.621s] writing manifest file 'fusion_tracker.egg-info/SOURCES.txt'
+[1.622s] running build_ext
+[1.623s] running symlink_data
+[1.623s] creating /workspace/CogniScope/install/fusion_tracker/share/ament_index
+[1.623s] creating /workspace/CogniScope/install/fusion_tracker/share/ament_index/resource_index
+[1.623s] creating /workspace/CogniScope/install/fusion_tracker/share/ament_index/resource_index/packages
+[1.623s] symbolically linking /workspace/CogniScope/build/fusion_tracker/resource/fusion_tracker -> /workspace/CogniScope/install/fusion_tracker/share/ament_index/resource_index/packages
+[1.623s] symbolically linking /workspace/CogniScope/build/fusion_tracker/package.xml -> /workspace/CogniScope/install/fusion_tracker/share/fusion_tracker
+[1.623s] creating /workspace/CogniScope/install/fusion_tracker/share/fusion_tracker/launch
+[1.623s] symbolically linking /workspace/CogniScope/build/fusion_tracker/launch/fusion_tracker.launch.py -> /workspace/CogniScope/install/fusion_tracker/share/fusion_tracker/launch
+[1.670s] Invoked command in '/workspace/CogniScope/build/fusion_tracker' returned '0': PYTHONPATH=/workspace/CogniScope/build/fusion_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/CogniScope/install/fusion_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/CogniScope/build/fusion_tracker/build --no-deps symlink_data

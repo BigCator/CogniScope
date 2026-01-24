@@ -1,0 +1,2 @@
+ultrasonic_radar
+-DCATKIN_DEVEL_PREFIX=/home/neousys/driver/ultrasonic_radar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/neousys/driver/ultrasonic_radar_ws/install -G Unix Makefiles

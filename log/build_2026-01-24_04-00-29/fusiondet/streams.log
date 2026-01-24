@@ -1,0 +1,18 @@
+[1.201s] Invoking command in '/workspace/CogniScope/build/fusiondet': PYTHONPATH=/workspace/CogniScope/build/fusiondet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/CogniScope/install/fusiondet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/CogniScope/build/fusiondet/build --no-deps symlink_data
+[1.417s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.417s]   warnings.warn(
+[1.453s] running develop
+[1.520s] /usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[1.520s]   warnings.warn(
+[1.618s] running egg_info
+[1.618s] creating fusiondet.egg-info
+[1.618s] writing manifest file 'fusiondet.egg-info/SOURCES.txt'
+[1.620s] writing manifest file 'fusiondet.egg-info/SOURCES.txt'
+[1.621s] running build_ext
+[1.622s] running symlink_data
+[1.622s] creating /workspace/CogniScope/install/fusiondet/share/ament_index
+[1.622s] creating /workspace/CogniScope/install/fusiondet/share/ament_index/resource_index
+[1.622s] creating /workspace/CogniScope/install/fusiondet/share/ament_index/resource_index/packages
+[1.622s] symbolically linking /workspace/CogniScope/build/fusiondet/resource/fusiondet -> /workspace/CogniScope/install/fusiondet/share/ament_index/resource_index/packages
+[1.622s] symbolically linking /workspace/CogniScope/build/fusiondet/package.xml -> /workspace/CogniScope/install/fusiondet/share/fusiondet
+[1.660s] Invoked command in '/workspace/CogniScope/build/fusiondet' returned '0': PYTHONPATH=/workspace/CogniScope/build/fusiondet/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/CogniScope/install/fusiondet/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/CogniScope/build/fusiondet/build --no-deps symlink_data

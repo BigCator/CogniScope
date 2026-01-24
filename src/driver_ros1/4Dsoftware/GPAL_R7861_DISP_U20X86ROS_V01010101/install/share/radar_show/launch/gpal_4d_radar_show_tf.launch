@@ -1,0 +1,7 @@
+<!-- Views:TopDownOrtho(rviz) -->
+<launch>
+    <!-- <node pkg="tf" type="static_transform_publisher" name="corridnate_car_model" args="1.22 0.0 0.0 3.14159 0.0 0.0 car car_model 1000" /> -->
+
+    <!-- <node pkg="tf" type="static_transform_publisher" name="static_transform_publisher_middle_lidar" args=" 1 0 2.0022807 -1.5829 -0.006716 -0.00575274 car middle_lidar 1000" /> -->
+
+</launch>

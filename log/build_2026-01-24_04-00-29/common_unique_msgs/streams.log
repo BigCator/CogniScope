@@ -1,0 +1,299 @@
+[0.036s] Invoking command in '/workspace/CogniScope/build/common_unique_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/CogniScope/src/sensor_driver/src/common_unique_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/CogniScope/install/common_unique_msgs
+[0.854s] -- The C compiler identification is GNU 11.4.0
+[0.854s] -- The CXX compiler identification is GNU 11.4.0
+[0.855s] -- Detecting C compiler ABI info
+[0.855s] -- Detecting C compiler ABI info - done
+[0.855s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.855s] -- Detecting C compile features
+[0.855s] -- Detecting C compile features - done
+[0.856s] -- Detecting CXX compiler ABI info
+[0.856s] -- Detecting CXX compiler ABI info - done
+[0.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.856s] -- Detecting CXX compile features
+[0.856s] -- Detecting CXX compile features - done
+[0.857s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.874s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.936s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.994s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.009s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.062s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.104s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.429s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.974s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.977s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.009s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.009s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.010s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.010s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.036s] -- Found PythonExtra: .so  
+[2.091s] -- Configuring done
+[2.117s] -- Generating done
+[2.125s] -- Build files have been written to: /workspace/CogniScope/build/common_unique_msgs
+[2.131s] Invoked command in '/workspace/CogniScope/build/common_unique_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/CogniScope/src/sensor_driver/src/common_unique_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/CogniScope/install/common_unique_msgs
+[2.133s] Invoking command in '/workspace/CogniScope/build/common_unique_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/CogniScope/build/common_unique_msgs -- -j112 -l112
+[2.183s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.194s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.203s] [  3%] Built target ament_cmake_python_symlink_common_unique_msgs
+[2.478s] running egg_info
+[2.479s] creating common_unique_msgs.egg-info
+[2.479s] writing manifest file 'common_unique_msgs.egg-info/SOURCES.txt'
+[2.481s] writing manifest file 'common_unique_msgs.egg-info/SOURCES.txt'
+[2.520s] [  3%] Built target ament_cmake_python_build_common_unique_msgs_egg
+[2.905s] [  3%] Built target common_unique_msgs__cpp
+[2.913s] [  4%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_unique_msgs/msg/detail/location__functions.c.o[0m
+[2.913s] [  6%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_unique_msgs/msg/detail/custom_gnss__functions.c.o[0m
+[2.914s] [  7%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_unique_msgs/msg/detail/uni_header__functions.c.o[0m
+[2.914s] [  9%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_unique_msgs/msg/detail/custom_imu__functions.c.o[0m
+[2.915s] [ 11%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_c.dir/rosidl_generator_c/common_unique_msgs/msg/detail/location_initial__functions.c.o[0m
+[2.930s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.933s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.933s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.995s] [ 17%] [32m[1mLinking C shared library libcommon_unique_msgs__rosidl_generator_c.so[0m
+[3.039s] [ 17%] Built target common_unique_msgs__rosidl_generator_c
+[3.055s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.055s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.056s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.543s] [ 23%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_unique_msgs/msg/custom_gnss__type_support.cpp.o[0m
+[3.543s] [ 25%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_unique_msgs/msg/custom_imu__type_support.cpp.o[0m
+[3.544s] [ 28%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_unique_msgs/msg/location_initial__type_support.cpp.o[0m
+[3.544s] [ 28%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_unique_msgs/msg/location__type_support.cpp.o[0m
+[3.544s] [ 30%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/common_unique_msgs/msg/uni_header__type_support.cpp.o[0m
+[3.560s] [ 31%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_unique_msgs/msg/detail/uni_header__type_support.cpp.o[0m
+[3.561s] [ 33%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_unique_msgs/msg/detail/location_initial__type_support.cpp.o[0m
+[3.561s] [ 34%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_unique_msgs/msg/detail/location__type_support.cpp.o[0m
+[3.562s] [ 36%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_unique_msgs/msg/detail/custom_imu__type_support.cpp.o[0m
+[3.562s] [ 38%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/common_unique_msgs/msg/detail/custom_gnss__type_support.cpp.o[0m
+[3.634s] [ 39%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_unique_msgs/msg/detail/dds_fastrtps/uni_header__type_support.cpp.o[0m
+[3.634s] [ 41%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_unique_msgs/msg/detail/dds_fastrtps/location__type_support.cpp.o[0m
+[3.636s] [ 42%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_unique_msgs/msg/detail/dds_fastrtps/location_initial__type_support.cpp.o[0m
+[3.636s] [ 44%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_unique_msgs/msg/detail/dds_fastrtps/custom_gnss__type_support.cpp.o[0m
+[3.636s] [ 46%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/common_unique_msgs/msg/detail/dds_fastrtps/custom_imu__type_support.cpp.o[0m
+[3.654s] [ 47%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_unique_msgs/msg/uni_header__type_support.cpp.o[0m
+[3.654s] [ 49%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_unique_msgs/msg/location__type_support.cpp.o[0m
+[3.654s] [ 52%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_unique_msgs/msg/location_initial__type_support.cpp.o[0m
+[3.654s] [ 52%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_unique_msgs/msg/custom_gnss__type_support.cpp.o[0m
+[3.655s] [ 53%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/common_unique_msgs/msg/custom_imu__type_support.cpp.o[0m
+[3.701s] [ 55%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location__type_support.c.o[0m
+[3.701s] [ 57%] [32m[1mLinking CXX shared library libcommon_unique_msgs__rosidl_typesupport_c.so[0m
+[3.702s] [ 58%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/uni_header__type_support.c.o[0m
+[3.702s] [ 60%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location_initial__type_support.c.o[0m
+[3.703s] [ 61%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_gnss__type_support.c.o[0m
+[3.703s] [ 63%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_imu__type_support.c.o[0m
+[3.741s] [ 66%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_unique_msgs/msg/detail/location_initial__type_support_c.cpp.o[0m
+[3.741s] [ 66%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_unique_msgs/msg/detail/location__type_support_c.cpp.o[0m
+[3.741s] [ 68%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_unique_msgs/msg/detail/custom_imu__type_support_c.cpp.o[0m
+[3.741s] [ 69%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_unique_msgs/msg/detail/uni_header__type_support_c.cpp.o[0m
+[3.741s] [ 71%] [32mBuilding CXX object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/common_unique_msgs/msg/detail/custom_gnss__type_support_c.cpp.o[0m
+[3.751s] [ 73%] [32m[1mLinking C shared library libcommon_unique_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.752s] [ 73%] Built target common_unique_msgs__rosidl_typesupport_c
+[3.785s] [ 74%] [32m[1mLinking CXX shared library libcommon_unique_msgs__rosidl_typesupport_cpp.so[0m
+[3.785s] [ 74%] Built target common_unique_msgs__rosidl_typesupport_introspection_c
+[3.826s] [ 74%] Built target common_unique_msgs__rosidl_typesupport_cpp
+[3.884s] [ 76%] [32m[1mLinking CXX shared library libcommon_unique_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.949s] [ 76%] Built target common_unique_msgs__rosidl_typesupport_introspection_cpp
+[3.991s] [ 77%] [32m[1mLinking CXX shared library libcommon_unique_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.022s] [ 79%] [32m[1mLinking CXX shared library libcommon_unique_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.071s] [ 79%] Built target common_unique_msgs__rosidl_typesupport_fastrtps_cpp
+[4.108s] [ 79%] Built target common_unique_msgs__rosidl_typesupport_fastrtps_c
+[4.145s] [ 79%] Built target common_unique_msgs
+[4.180s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.405s] [ 80%] Built target common_unique_msgs__py
+[5.430s] [ 82%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_py.dir/rosidl_generator_py/common_unique_msgs/msg/_uni_header_s.c.o[0m
+[5.430s] [ 84%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_py.dir/rosidl_generator_py/common_unique_msgs/msg/_location_initial_s.c.o[0m
+[5.430s] [ 85%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_py.dir/rosidl_generator_py/common_unique_msgs/msg/_location_s.c.o[0m
+[5.430s] [ 87%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_py.dir/rosidl_generator_py/common_unique_msgs/msg/_custom_gnss_s.c.o[0m
+[5.431s] [ 88%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_generator_py.dir/rosidl_generator_py/common_unique_msgs/msg/_custom_imu_s.c.o[0m
+[5.532s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/common_unique_msgs/libcommon_unique_msgs__rosidl_generator_py.so[0m
+[5.579s] [ 90%] Built target common_unique_msgs__rosidl_generator_py
+[5.603s] [ 92%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/common_unique_msgs/_common_unique_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.604s] [ 93%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/common_unique_msgs/_common_unique_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.605s] [ 95%] [32mBuilding C object CMakeFiles/common_unique_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/common_unique_msgs/_common_unique_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.702s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/common_unique_msgs/common_unique_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.702s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/common_unique_msgs/common_unique_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.702s] [100%] [32m[1mLinking C shared library rosidl_generator_py/common_unique_msgs/common_unique_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.739s] [100%] Built target common_unique_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.741s] [100%] Built target common_unique_msgs__rosidl_typesupport_c__pyext
+[5.744s] [100%] Built target common_unique_msgs__rosidl_typesupport_introspection_c__pyext
+[5.757s] Invoked command in '/workspace/CogniScope/build/common_unique_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/CogniScope/build/common_unique_msgs -- -j112 -l112
+[5.759s] Invoking command in '/workspace/CogniScope/build/common_unique_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/CogniScope/build/common_unique_msgs
+[5.767s] -- Install configuration: ""
+[5.768s] -- Execute custom install script
+[5.768s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/ament_index/resource_index/rosidl_interfaces/common_unique_msgs
+[5.776s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/custom_gnss.h
+[5.785s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/custom_imu.h
+[5.791s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__functions.h
+[5.797s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__struct.h
+[5.803s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__type_support.h
+[5.809s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__functions.h
+[5.815s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__struct.h
+[5.821s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__type_support.h
+[5.826s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__functions.h
+[5.832s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__struct.h
+[5.838s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__type_support.h
+[5.844s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__functions.h
+[5.849s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__struct.h
+[5.858s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__type_support.h
+[5.864s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__functions.h
+[5.870s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__struct.h
+[5.878s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__type_support.h
+[5.884s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/location.h
+[5.889s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/location_initial.h
+[5.895s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.901s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/uni_header.h
+[5.909s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/environment/library_path.sh
+[5.915s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/environment/library_path.dsv
+[5.924s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__rosidl_typesupport_fastrtps_c.h
+[5.930s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__rosidl_typesupport_fastrtps_c.h
+[5.938s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__rosidl_typesupport_fastrtps_c.h
+[5.943s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__rosidl_typesupport_fastrtps_c.h
+[5.949s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__rosidl_typesupport_fastrtps_c.h
+[5.957s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.966s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__rosidl_typesupport_introspection_c.h
+[5.975s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__rosidl_typesupport_introspection_c.h
+[5.981s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__rosidl_typesupport_introspection_c.h
+[5.987s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__rosidl_typesupport_introspection_c.h
+[5.993s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__rosidl_typesupport_introspection_c.h
+[5.999s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.006s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/custom_gnss.hpp
+[6.012s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/custom_imu.hpp
+[6.017s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__builder.hpp
+[6.025s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__struct.hpp
+[6.030s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__traits.hpp
+[6.036s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__type_support.hpp
+[6.041s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__builder.hpp
+[6.049s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__struct.hpp
+[6.053s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__traits.hpp
+[6.060s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__type_support.hpp
+[6.066s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__builder.hpp
+[6.071s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__struct.hpp
+[6.081s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__traits.hpp
+[6.089s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__type_support.hpp
+[6.095s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__builder.hpp
+[6.101s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__struct.hpp
+[6.107s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__traits.hpp
+[6.114s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__type_support.hpp
+[6.122s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__builder.hpp
+[6.128s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__struct.hpp
+[6.134s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__traits.hpp
+[6.143s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__type_support.hpp
+[6.150s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/location.hpp
+[6.160s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/location_initial.hpp
+[6.167s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.173s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/uni_header.hpp
+[6.180s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__rosidl_typesupport_fastrtps_cpp.hpp
+[6.186s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__rosidl_typesupport_fastrtps_cpp.hpp
+[6.194s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__rosidl_typesupport_fastrtps_cpp.hpp
+[6.200s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__rosidl_typesupport_fastrtps_cpp.hpp
+[6.205s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__rosidl_typesupport_fastrtps_cpp.hpp
+[6.212s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.218s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_gnss__rosidl_typesupport_introspection_cpp.hpp
+[6.227s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/custom_imu__rosidl_typesupport_introspection_cpp.hpp
+[6.233s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location__rosidl_typesupport_introspection_cpp.hpp
+[6.242s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/location_initial__rosidl_typesupport_introspection_cpp.hpp
+[6.252s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/include/common_unique_msgs/common_unique_msgs/msg/detail/uni_header__rosidl_typesupport_introspection_cpp.hpp
+[6.262s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/environment/pythonpath.sh
+[6.270s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/environment/pythonpath.dsv
+[6.278s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[6.284s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[6.290s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[6.298s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[6.307s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/__init__.py
+[6.314s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/_common_unique_msgs_s.ep.rosidl_typesupport_c.c
+[6.320s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/_common_unique_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.326s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/_common_unique_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.333s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/common_unique_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.339s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/common_unique_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.346s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/common_unique_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.352s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/libcommon_unique_msgs__rosidl_generator_py.so
+[6.359s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/__init__.py
+[6.367s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_custom_gnss.py
+[6.376s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_custom_gnss_s.c
+[6.383s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_custom_imu.py
+[6.391s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_custom_imu_s.c
+[6.400s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_location.py
+[6.407s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_location_initial.py
+[6.413s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_location_initial_s.c
+[6.423s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_location_s.c
+[6.429s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_uni_header.py
+[6.439s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_uni_header_s.c
+[6.444s] -- Up-to-date symlink: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/common_unique_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.444s] -- Up-to-date symlink: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/common_unique_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.444s] -- Up-to-date symlink: /workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/common_unique_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.445s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/UniHeader.idl
+[6.452s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/Location.idl
+[6.459s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/LocationInitial.idl
+[6.465s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/CustomGNSS.idl
+[6.471s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/CustomIMU.idl
+[6.477s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/UniHeader.msg
+[6.484s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/Location.msg
+[6.491s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/LocationInitial.msg
+[6.497s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/CustomGNSS.msg
+[6.506s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/msg/CustomIMU.msg
+[6.513s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/ament_index/resource_index/package_run_dependencies/common_unique_msgs
+[6.520s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/ament_index/resource_index/parent_prefix_path/common_unique_msgs
+[6.528s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/environment/ament_prefix_path.sh
+[6.533s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/environment/ament_prefix_path.dsv
+[6.543s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/environment/path.sh
+[6.551s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/environment/path.dsv
+[6.557s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/local_setup.bash
+[6.566s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/local_setup.sh
+[6.573s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/local_setup.zsh
+[6.580s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/local_setup.dsv
+[6.586s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/package.dsv
+[6.592s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/ament_index/resource_index/packages/common_unique_msgs
+[6.598s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/rosidl_cmake-extras.cmake
+[6.605s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.613s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.623s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.629s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.637s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.646s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.653s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgsConfig.cmake
+[6.660s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgsConfig-version.cmake
+[6.669s] -- Symlinking: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/package.xml
+[6.676s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_generator_c.so
+[6.677s] -- Set runtime path of "/workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_generator_c.so" to ""
+[6.677s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_fastrtps_c.so
+[6.677s] -- Set runtime path of "/workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.677s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_introspection_c.so
+[6.677s] -- Set runtime path of "/workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.678s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_c.so
+[6.678s] -- Set runtime path of "/workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_c.so" to ""
+[6.678s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.678s] -- Set runtime path of "/workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.678s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_introspection_cpp.so
+[6.679s] -- Set runtime path of "/workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.679s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_cpp.so
+[6.679s] -- Set runtime path of "/workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_typesupport_cpp.so" to ""
+[6.723s] Listing '/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs'...
+[6.723s] Compiling '/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/__init__.py'...
+[6.724s] Listing '/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg'...
+[6.724s] Compiling '/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/__init__.py'...
+[6.724s] Compiling '/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_custom_gnss.py'...
+[6.724s] Compiling '/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_custom_imu.py'...
+[6.724s] Compiling '/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_location.py'...
+[6.724s] Compiling '/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_location_initial.py'...
+[6.724s] Compiling '/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages/common_unique_msgs/msg/_uni_header.py'...
+[6.728s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_generator_py.so
+[6.729s] -- Set runtime path of "/workspace/CogniScope/install/common_unique_msgs/lib/libcommon_unique_msgs__rosidl_generator_py.so" to ""
+[6.729s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/export_common_unique_msgs__rosidl_generator_cExport.cmake
+[6.729s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/export_common_unique_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.729s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/export_common_unique_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.729s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/export_common_unique_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.730s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.730s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.730s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgs__rosidl_typesupport_cExport.cmake
+[6.730s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.730s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/export_common_unique_msgs__rosidl_generator_cppExport.cmake
+[6.731s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/export_common_unique_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.731s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/export_common_unique_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.731s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.731s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.731s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgs__rosidl_typesupport_cppExport.cmake
+[6.731s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/common_unique_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.731s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/export_common_unique_msgs__rosidl_generator_pyExport.cmake
+[6.731s] -- Installing: /workspace/CogniScope/install/common_unique_msgs/share/common_unique_msgs/cmake/export_common_unique_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.734s] Invoked command in '/workspace/CogniScope/build/common_unique_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/CogniScope/build/common_unique_msgs

@@ -1,0 +1,101 @@
+<launch>
+
+    <!-- Camera-->
+    <node name="usb_cam0" pkg="usb_cam" type="usb_cam_node" output="screen" >
+        <param name="video_device" value="/dev/video4" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="pixel_format" value="yuyv" />
+        <param name="camera_frame_id" value="usb_cam" />
+        <param name="io_method" value="mmap"/>
+        <param name="flip_vertical" value="false"/>
+        <param name="flip_horizontal" value="false"/>
+    </node>
+
+
+
+    <!-- GPAL_BUICK -->
+    	<!-- USB camera Driver Begin -->
+	<!-- <node pkg="usb_cam" type="generate_usb_cam_hannway_config.sh" name="generate_usb_cam" output="screen">
+	</node> -->
+	<!-- front left -->
+	<!-- <node pkg="usb_cam" type="usb_cam_node" name="usb_cam_front_left" output="log" >
+	<param name="video_device_config_path" value="/tmp/usb_cam_hannway.config" />
+	<param name="image_width" value="640" />
+	<param name="image_height" value="480" />
+	<param name="pixel_format" value="mjpeg" />
+	<param name="camera_frame_id" value="usb_cam_front_left" />
+	<param name="io_method" value="mmap"/>
+	<param name="autoexposure" value="true"/>
+    </node> -->
+
+	<!-- front center -->
+	<!-- <node pkg="usb_cam" type="usb_cam_node" name="usb_cam_front_center" output="log">
+		<param name="video_device_config_path" value="/tmp/usb_cam_hannway.config" />
+		<param name="image_width" value="640" />
+		<param name="image_height" value="480" />
+		<param name="pixel_format" value="mjpeg" />
+		<param name="camera_frame_id" value="usb_cam_front_center" />
+		<param name="io_method" value="mmap" />
+		<param name="autoexposure" value="true" />
+	</node>
+	<node pkg="usb_cam" type="usb_cam_node" name="usb_cam_front_center_saic" output="log">
+		<param name="video_device_config_path" value="/tmp/usb_cam_hannway.config" />
+		<param name="image_width" value="640" />
+		<param name="image_height" value="480" />
+		<param name="pixel_format" value="mjpeg" />
+		<param name="camera_frame_id" value="usb_cam_front_center_saic" />
+		<param name="io_method" value="mmap" />
+		<param name="autoexposure" value="true" />
+	</node> -->
+	<!-- front right -->
+	
+	<!-- <node pkg="usb_cam" type="usb_cam_node" name="usb_cam_front_right" output="log" >
+	<param name="video_device_config_path" value="/tmp/usb_cam_hannway.config" />
+	<param name="image_width" value="640" />
+	<param name="image_height" value="480" />
+	<param name="pixel_format" value="mjpeg" />
+	<param name="camera_frame_id" value="usb_cam_front_right" />
+	<param name="io_method" value="mmap"/>
+	<param name="autoexposure" value="true"/>
+	</node> -->
+	
+	<!-- back left -->
+	
+	<!-- <node pkg="usb_cam" type="usb_cam_node" name="usb_cam_back_left" output="log" >
+	<param name="video_device_config_path" value="/tmp/usb_cam_hannway.config" />
+	<param name="image_width" value="640" />
+	<param name="image_height" value="480" />
+	<param name="pixel_format" value="mjpeg" />
+	<param name="camera_frame_id" value="usb_cam_back_left" />
+	<param name="io_method" value="mmap"/>
+	<param name="autoexposure" value="true"/>
+	</node> -->
+	
+	<!-- back center -->
+	
+	<!-- <node pkg="usb_cam" type="usb_cam_node" name="usb_cam_back_center" output="log" >
+	<param name="video_device_config_path" value="/tmp/usb_cam_hannway.config" />
+	<param name="image_width" value="640" />
+	<param name="image_height" value="480" />
+	<param name="pixel_format" value="mjpeg" />
+	<param name="camera_frame_id" value="usb_cam_back_center" />
+	<param name="io_method" value="mmap"/>
+	<param name="autoexposure" value="true"/>
+	</node> -->
+	
+	<!-- back right -->
+	
+	<!-- <node pkg="usb_cam" type="usb_cam_node" name="usb_cam_back_right" output="log" >
+	<param name="video_device_config_path" value="/tmp/usb_cam_hannway.config" />
+	<param name="image_width" value="640" />
+	<param name="image_height" value="480" />
+	<param name="pixel_format" value="mjpeg" />
+	<param name="camera_frame_id" value="usb_cam_back_right" />
+	<param name="io_method" value="mmap"/>
+	<param name="autoexposure" value="true"/>
+	</node> -->
+	
+	<!-- USB camera Driver End -->
+
+</launch>

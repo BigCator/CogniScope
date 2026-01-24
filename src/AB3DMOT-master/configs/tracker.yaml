@@ -1,0 +1,21 @@
+# ------------------- General Options -------------------------
+description: AB3DMOT        # 跟踪器名称或描述
+seed: 0                     # 随机种子
+
+# --------------- main.py 部分（即使ROS也要保留）
+save_root: ./results/ROS    # 保存结果路径，可以改成ROS专用目录
+dataset: ROS                # 数据集名称，改成ROS表示实时数据流
+split: val                  # 保留字段，随便填 val/test 都行
+det_name: pcdet_ros         # 检测器名称，改成你ROS节点的名字
+cat_list: ['Car', 'Pedestrian', 'Cyclist']  # 跟踪类别
+
+score_threshold: -10000     # 分数阈值
+num_hypo: 1                 # 多假设数量
+
+# --------------- model.py 部分（跟踪器配置）
+ego_com: false              # ROS场景下通常不需要自车运动补偿
+vis: false                  # 是否可视化
+affi_pro: true              # 是否启用关联概率
+min_hits: 2                 # 最少连续命中次数
+max_age: 5                 # 最大跟踪寿命
+match_algorithm: hungarian  # 匹配算法

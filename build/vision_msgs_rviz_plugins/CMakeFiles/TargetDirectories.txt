@@ -1,0 +1,11 @@
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/uninstall.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/vision_msgs_rviz_plugins_uninstall.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/vision_msgs_rviz_plugins.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/test.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/edit_cache.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/rebuild_cache.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/list_install_components.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/install.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/install/local.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/install/strip.dir
+/workspace/CogniScope/build/vision_msgs_rviz_plugins/CMakeFiles/vision_msgs_rviz_plugins_autogen.dir

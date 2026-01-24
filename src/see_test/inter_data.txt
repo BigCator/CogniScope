@@ -1,0 +1,58 @@
+li_cls_pred
+li_xyz: torch.Size([28, 512, 3])                                                                                                                                                                       | 0/184 [00:00<?, ?it/s]
+li_features: torch.Size([28, 64, 512])
+
+li_cls_pred: torch.Size([28, 512, 3])
+li_xyz: torch.Size([28, 512, 3])
+li_features: torch.Size([28, 128, 512])
+
+li_cls_pred: torch.Size([28, 256, 3])
+li_xyz: torch.Size([28, 256, 3])
+li_features: torch.Size([28, 256, 256])
+
+li_xyz: torch.Size([28, 128, 3])
+li_features: torch.Size([28, 256, 128])
+
+li_xyz: torch.Size([28, 128, 3])
+li_features: torch.Size([28, 512, 128])
+
+
+
+
+li_xyz: torch.Size([28, 4096, 3])
+li_features: torch.Size([28, 64, 4096])
+
+li_cls_pred: torch.Size([28, 1024, 3])
+li_xyz: torch.Size([28, 1024, 3])
+li_features: torch.Size([28, 128, 1024])
+
+li_cls_pred: torch.Size([28, 512, 3])
+li_xyz: torch.Size([28, 512, 3])
+li_features: torch.Size([28, 256, 512])
+
+li_xyz: torch.Size([28, 256, 3])
+li_features: torch.Size([28, 256, 256])
+
+li_xyz: torch.Size([28, 256, 3])
+li_features: torch.Size([28, 512, 256])
+
+
+
+
+
+li_xyz: torch.Size([28, 512, 3])
+li_features: torch.Size([28, 64, 512])
+
+li_cls_pred: torch.Size([28, 512, 3])
+li_xyz: torch.Size([28, 512, 3])
+li_features: torch.Size([28, 128, 512])
+
+li_cls_pred: torch.Size([28, 256, 3])
+li_xyz: torch.Size([28, 256, 3])
+li_features: torch.Size([28, 256, 256])
+
+li_xyz: torch.Size([28, 128, 3])
+li_features: torch.Size([28, 256, 128])
+
+li_xyz: torch.Size([28, 128, 3])
+li_features: torch.Size([28, 512, 128])

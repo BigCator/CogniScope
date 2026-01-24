@@ -1,0 +1,7 @@
+source install/setup.bash
+colcon build
+export PYTHONPATH=$PYTHONPATH:/opt/conda/lib/python3.8/site-packages
+export PYTHONPATH=$PYTHONPATH:/workspace/mmdetection3d
+
+ros2 run fusiondet test
+ros2 bag play /mnt/data2/ZD/data1009/1 -l

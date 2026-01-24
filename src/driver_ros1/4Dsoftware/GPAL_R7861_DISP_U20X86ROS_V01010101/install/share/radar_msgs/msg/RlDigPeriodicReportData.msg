@@ -1,0 +1,2 @@
+uint32 digMonPeriodicStatus
+uint32 timeStamp

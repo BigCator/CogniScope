@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "common_unique_msgs__py",
+		"source" : "/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs/common_unique_msgs__py"
+	}
+}

@@ -1,0 +1,1 @@
+/workspace/CogniScope/build/rslidar_msg/rosidl_generator_cpp/rslidar_msg/msg/detail/rslidar_packet__traits.hpp

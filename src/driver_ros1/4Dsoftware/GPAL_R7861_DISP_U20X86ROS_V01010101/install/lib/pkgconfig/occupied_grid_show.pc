@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Downloads/customer_src_20230926/install
+
+Name: occupied_grid_show
+Description: Description of occupied_grid_show
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

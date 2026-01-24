@@ -1,0 +1,94 @@
+<launch>
+
+    <!-- set of the arguments -->
+
+    <!-- radar number -->
+    <arg name="radar_num" default="2"/>
+    
+    <!-- whether to print the debug info -->
+    <arg name="debug_print" default="1"/>
+
+    <!-- set for printf -->
+    <arg name="setp" default="0"/>
+    
+    <!-- pcap ipv4 or ipv6 -->
+    <arg name="ipv" default="4"/>
+
+    <!-- pcap or socket -->
+    <arg name="receive_method" default="pcap"/>   <!-- pcap or socket--> 
+
+    <!-- switch -->
+    <arg name="radar_pcl_extreme_sw" default="on"/>   <!-- radar point cloud with extreme value check switch: on or off-->  
+
+    <!-- parse radar tf -->    
+    <!-- x-axis of radar assembly position(m) -->
+    <arg name ="ego_x" default="0.0"/>
+    <!-- y-axis of radar assembly position(m) -->
+    <arg name ="ego_y" default="0.0"/>
+    <!-- z-axis of radar assembly position(m) -->
+    <arg name ="ego_z" default="0.0"/>
+    <!-- roll-angle of radar assembly position(degree) -->
+    <arg name ="ego_roll" default="0.0"/>
+    <!-- pitch-angle of radar assembly position(degree) -->
+    <arg name ="ego_pitch" default="0.0"/>
+    <!-- yaw-angle of radar assembly position(degree) -->
+    <arg name ="ego_yaw" default="0.0"/>
+
+    <!-- radar show tf  -->
+    <!-- assembly configuration -->
+    <arg name="calib_file" default="$(find radar_show)/../calibration/default.conf" />
+
+    <!-- network config -->
+    <arg name="receive_udp_fliter_role" default="src port 9501 and dst port 9501" />
+    <!-- <arg name="receive_udp_packet_name" default="Packet_Pub_Radar_1" /> -->
+    <arg name="receive_udp_network_name" default="any" />
+    <!-- socket ip and port -->
+    <arg name="local_ip" default="192.168.1.255" />
+    <arg name="local_port" default="9501" />
+
+    <!-- Receive Data Begin, please don't change next data!!! -->
+    <node pkg = "receive_udp" type = "receive_udp_n" name = "receive_and_parse_radar_2" output = "screen">
+        <param name="fliter_role" type="string" value="$(arg receive_udp_fliter_role)"/>
+        <param name="net_work_name" type="string" value="$(arg receive_udp_network_name)"/>
+        <param name="radar_num" type="string" value="$(arg radar_num)"/>
+        <param name="ego_x" type="double" value="$(arg ego_x)"/>
+        <param name="ego_y" type="double" value="$(arg ego_y)"/>
+        <param name="ego_z" type="double" value="$(arg ego_z)"/>
+        <param name="ego_yaw" type="double" value="$(arg ego_yaw)"/>
+        <param name="ego_pitch" type="double" value="$(arg ego_pitch)"/>
+        <param name="ego_roll" type="double" value="$(arg ego_roll)"/>
+        <param name="ipv" type="int" value="$(arg ipv)"/>
+        <param name="receive_method" type="string" value="$(arg receive_method)"/>
+        <param name="debug_print" type="int" value="$(arg debug_print)"/>
+        <param name="localIp" type="string" value="$(arg local_ip)"/>
+        <param name="localPort" type="string" value="$(arg local_port)"/>
+        <param name="setp" type="int" value="$(arg setp)"/>
+        <rosparam file="$(find radar_show)/launch/param.yaml" command="load" />  
+    </node>
+
+    <node pkg = "radar_show" type = "radar_show_n" name = "radar_show_point_radar_2" output = "screen">
+        <param name="radar_num" type="string" value="$(arg radar_num)"/>
+        <rosparam file="$(find radar_show)/launch/param.yaml" command="load" />  
+        <rosparam file="$(find radar_show)/launch/param_area_check.yaml" command="load" />  
+        <param name="debug_print" type="int" value="$(arg debug_print)"/>
+        <param name="calib_file_path" type="string" value="$(arg calib_file)" />
+        <param name="radar_pcl_extreme_sw" type="string" value="$(arg radar_pcl_extreme_sw)"/>
+    </node> 
+
+    <node pkg = "track_show" type = "track_show_n" name = "track_show_bbox_radar_2" output = "screen">
+        <param name="radar_num" type="string" value="$(arg radar_num)"/>        
+        <param name="debug_print" type="int" value="$(arg debug_print)"/>
+    </node>
+
+    <node pkg = "rviz_show" type = "rviz_show_n" name = "rviz_show_radar_2" output = "screen">
+        <param name="radar_num" type="string" value="$(arg radar_num)"/>
+    </node>
+
+    <node pkg = "occupied_grid_show" type = "occupied_grid_show_n" name = "occupied_grid_show_radar_2" output = "screen" required ="true">
+        <param name="radar_num" type="string" value="$(arg radar_num)"/>        
+        <param name="debug_print" type="int" value="$(arg debug_print)"/>
+    </node>
+ 
+    <!-- Receive Data End -->
+
+</launch>

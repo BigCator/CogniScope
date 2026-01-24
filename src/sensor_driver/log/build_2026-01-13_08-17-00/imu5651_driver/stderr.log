@@ -1,0 +1,40 @@
+In file included from [01m[K/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver/src/serial_reader.cpp:1[m[K:
+[01m[K/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver/include/imu5651_driver/serial_reader.hpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KExecutor[m[K’?
+   58 |     rclcpp::[01;31m[Kexecutor[m[K::Executor::SharedPtr executor_;
+      |             [01;31m[K^~~~~~~~[m[K
+      |             [32m[KExecutor[m[K
+In file included from [01m[K/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver/src/main.cpp:1[m[K:
+[01m[K/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver/include/imu5651_driver/serial_reader.hpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KExecutor[m[K’?
+   58 |     rclcpp::[01;31m[Kexecutor[m[K::Executor::SharedPtr executor_;
+      |             [01;31m[K^~~~~~~~[m[K
+      |             [32m[KExecutor[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver/include/imu5651_driver/serial_reader.hpp:3[m[K,
+                 from [01m[K/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver/src/serial_reader.cpp:1[m[K:
+[01m[K/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver/src/serial_reader.cpp:[m[K In constructor ‘[01m[KSerialReader::SerialReader(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver/src/serial_reader.cpp:89:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Klong int[m[K’ [[01;35m[K-Wformat=[m[K]
+   89 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"成功打开端口: %s (波特率: %d)"[m[K, port.c_str(), [32m[Kbaudrate[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                [32m[K~~~~~~~~[m[K
+      |                                                                                            [32m[K|[m[K
+      |                                                                                            [32m[Klong int[m[K
+[01m[K/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver/src/serial_reader.cpp:89:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   89 |             RCLCPP_INFO(this->get_logger(), "成功打开端口: %s (波特率: [01;36m[K%d[m[K)", port.c_str(), baudrate);
+      |                                                                        [01;36m[K~^[m[K
+      |                                                                         [01;36m[K|[m[K
+      |                                                                         [01;36m[Kint[m[K
+      |                                                                        [32m[K%ld[m[K
+gmake[2]: *** [CMakeFiles/imu5651_driver.dir/build.make:76: CMakeFiles/imu5651_driver.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/imu5651_driver.dir/build.make:90: CMakeFiles/imu5651_driver.dir/src/serial_reader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu5651_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

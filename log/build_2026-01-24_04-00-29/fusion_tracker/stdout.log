@@ -1,0 +1,14 @@
+running develop
+running egg_info
+creating fusion_tracker.egg-info
+writing manifest file 'fusion_tracker.egg-info/SOURCES.txt'
+writing manifest file 'fusion_tracker.egg-info/SOURCES.txt'
+running build_ext
+running symlink_data
+creating /workspace/CogniScope/install/fusion_tracker/share/ament_index
+creating /workspace/CogniScope/install/fusion_tracker/share/ament_index/resource_index
+creating /workspace/CogniScope/install/fusion_tracker/share/ament_index/resource_index/packages
+symbolically linking /workspace/CogniScope/build/fusion_tracker/resource/fusion_tracker -> /workspace/CogniScope/install/fusion_tracker/share/ament_index/resource_index/packages
+symbolically linking /workspace/CogniScope/build/fusion_tracker/package.xml -> /workspace/CogniScope/install/fusion_tracker/share/fusion_tracker
+creating /workspace/CogniScope/install/fusion_tracker/share/fusion_tracker/launch
+symbolically linking /workspace/CogniScope/build/fusion_tracker/launch/fusion_tracker.launch.py -> /workspace/CogniScope/install/fusion_tracker/share/fusion_tracker/launch

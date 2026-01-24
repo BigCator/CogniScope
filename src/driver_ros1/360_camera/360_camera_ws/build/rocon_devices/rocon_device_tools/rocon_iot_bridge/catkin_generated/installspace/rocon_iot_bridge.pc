@@ -1,0 +1,8 @@
+prefix=/home/neousys/driver/360_camera/360_camera_ws/install
+
+Name: rocon_iot_bridge
+Description: Description of rocon_iot_bridge
+Version: 0.0.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

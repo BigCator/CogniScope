@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/neousys/driver/ultrasonic_radar_ws/install/setup.sh

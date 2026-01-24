@@ -1,0 +1,12 @@
+[0.636s] Invoking command in '/workspace/CogniScope/build/see_beyond_ros2': PYTHONPATH=/workspace/CogniScope/build/see_beyond_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/CogniScope/build/see_beyond_ros2/build --no-deps symlink_data --force
+[0.884s] running develop
+[0.946s] /usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+[0.946s]   warnings.warn(
+[1.046s] running egg_info
+[1.048s] writing manifest file 'see_beyond_ros2.egg-info/SOURCES.txt'
+[1.049s] running build_ext
+[1.050s] running symlink_data
+[1.050s] symbolically linking /workspace/CogniScope/build/see_beyond_ros2/resource/see_beyond_ros2 -> /workspace/CogniScope/install/see_beyond_ros2/share/ament_index/resource_index/packages
+[1.050s] symbolically linking /workspace/CogniScope/build/see_beyond_ros2/package.xml -> /workspace/CogniScope/install/see_beyond_ros2/share/see_beyond_ros2
+[1.050s] symbolically linking /workspace/CogniScope/build/see_beyond_ros2/launch/see_beyond_ros2.launch.py -> /workspace/CogniScope/install/see_beyond_ros2/share/see_beyond_ros2/launch
+[1.088s] Invoked command in '/workspace/CogniScope/build/see_beyond_ros2' returned '0': PYTHONPATH=/workspace/CogniScope/build/see_beyond_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/CogniScope/build/see_beyond_ros2/build --no-deps symlink_data --force

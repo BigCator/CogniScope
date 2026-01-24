@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ultralytics_ros__py",
+		"source" : "/workspace/CogniScope/build/ultralytics_ros/ultralytics_ros__py"
+	}
+}

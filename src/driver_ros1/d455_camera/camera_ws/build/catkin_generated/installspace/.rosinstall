@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/neousys/driver/d455_camera/camera_ws/install/setup.sh

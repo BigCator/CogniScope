@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Downloads/customer_src_20230926/install
+
+Name: car_model
+Description: Description of car_model
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs visualization_msgs tf

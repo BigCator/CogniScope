@@ -1,0 +1,70 @@
+
+使用的conda虚拟环境是see_new
+
+cuda 11.8   python 3.7.11  ninja 1.11.1.1  
+vtk 9.2.6   mayavi 4.8.1   numpy 1.21.2
+numba 0.53.0   pybind11 2.12.0
+
+# Name                    Version                   Build  Channel
+pytorch                   1.10.2          py3.7_cuda11.3_cudnn8.2.0_0    pytorch
+pytorch-mutex             1.0                        cuda    pytorch
+torchaudio                0.10.2               py37_cu113    pytorch
+torchvision               0.11.3               py37_cu113    pytorch
+
+
+
+   预处理Preprocessing Dataset   
+      
+	cd /see_new
+	python3 /see_new/tools/prepare_vod_dataset.py
+	python3 setup.py develop 
+
+	cd /see_new/pcdet/ops/pointnet2/pointnet2_3DSSD
+	python3 setup.py develop
+
+	python3 -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos ~/xzx_ws/see_new/tools/cfgs/dataset_configs/vod_lidar_dataset.yaml
+	python3 -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos ~/xzx_ws/see_new/tools/cfgs/dataset_configs/vod_radar_dataset.yaml
+	      
+   Evaluation脚本   
+	# LiDAR main modality, radar aux
+	.~/xzx_ws/tools/eval_cfar_lidar.sh
+	# Radar main modality, LiDAR aux
+	.~/xzx_ws/tools/eval_cfar_radar.sh  
+	
+   Training脚本
+	# LiDAR main modality, radar aux
+	.~/xzx_ws/tools/trian_cfar_lidar.sh
+	# Radar main modality, LiDAR aux
+	.~/xzx_ws/tools/trian_cfar_radar.sh
+	
+	
+	单帧推理过程
+	python3 eval_single_epoch.py --cfg_file /see_new/tools/cfgs/kitti_models/cfar-lidar.yaml --ckpt /see_new/output/cfar-lidar/hy_RDP5\:3_24compress_test/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth --pretrained_model /seeing_beyond/ckpts/cfar/cfar-lidar-rcs.pth 
+
+	作图程序命令：demo_picture.py带有真值框/预测框对比
+	
+	python tools/demo_picture.py --cfg_file cfgs/kitti_models/test-vod-lidar.yaml --data_path /home/dell/vod_carla/lidar/training/velodyne/000012.bin --ckpt /home/dell/xzx_ws/see_test/output/test-vod-lidar/eeee/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth 
+
+
+
+
+#预处理Preprocessing Dataset 
+python3 /see_new/tools/prepare_vod_dataset.py
+
+#单帧推理过程
+python3 tools/eval_single_epoch.py \
+--cfg_file /workspace/ros2_yolo/src/see_test/tools/cfgs/kitti_models/car_pedes.yaml \
+--ckpt /workspace/ros2_yolo/src/see_test/output/car_pedes/carla_initial/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth \
+--pretrained_model /workspace/ros2_yolo/src/see_test/output/car_pedes/carla_initial/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth
+
+python3 tools/eval_single_epoch.py \
+--cfg_file /home/dell/ljw/code/ros2_yolo/src/see_test/output/car_pedes/TransNeXt_0115/car_pedes.yaml \
+--ckpt /home/dell/ljw/code/ros2_yolo/src/see_test/output/car_pedes/TransNeXt_0115/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth \
+--pretrained_model /home/dell/ljw/code/ros2_yolo/src/see_test/output/car_pedes/TransNeXt_0115/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth
+
+
+#pointnet2_3DSSD安装
+cd /workspace/ros2_yolo/src/OpenPCDet/pcdet/ops/pointnet2/pointnet2_3DSSD
+python3 setup.py develop
+
+			      

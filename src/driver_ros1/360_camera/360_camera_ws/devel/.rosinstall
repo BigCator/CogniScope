@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/neousys/driver/360_camera/360_camera_ws/devel/setup.sh

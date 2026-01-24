@@ -1,0 +1,17 @@
+uint16 statusFlags
+uint16 errorCode
+uint8 profIndex0
+uint8 reserved0
+uint16 reserved1
+int32 maxFreqErVal0
+uint32 freqFailCnt0
+uint32 maxFreqFailTime0
+uint32 reserved2
+uint8 profIndex1
+uint8 reserved3
+uint16 reserved4
+int32 maxFreqErVal1
+uint32 freqFailCnt1
+uint32 maxFreqFailTime1
+uint32 reserved5
+uint32 timeStamp

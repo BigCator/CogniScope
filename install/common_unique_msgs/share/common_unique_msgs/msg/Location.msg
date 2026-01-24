@@ -1,0 +1,1 @@
+/workspace/CogniScope/src/sensor_driver/src/common_unique_msgs/msg/Location.msg

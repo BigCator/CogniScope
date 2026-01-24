@@ -1,0 +1,1 @@
+/workspace/CogniScope/build/imu_speed/ament_cmake_core/imu_speedConfig-version.cmake

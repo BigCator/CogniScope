@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_gnss__type_support.c.o"
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_gnss__type_support.c.o.d"
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_imu__type_support.c.o"
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_imu__type_support.c.o.d"
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location__type_support.c.o"
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location__type_support.c.o.d"
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location_initial__type_support.c.o"
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location_initial__type_support.c.o.d"
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/uni_header__type_support.c.o"
+  "CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/uni_header__type_support.c.o.d"
+  "libcommon_unique_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libcommon_unique_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_gnss__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_gnss__type_support.c"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_imu__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/custom_imu__type_support.c"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location__type_support.c"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location_initial__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/location_initial__type_support.c"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/uni_header__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/common_unique_msgs/msg/detail/uni_header__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/common_unique_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

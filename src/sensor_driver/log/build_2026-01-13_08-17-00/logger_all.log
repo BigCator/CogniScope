@@ -1,0 +1,592 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=112, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f68de0c49a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f68de041630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f68de041630>>)
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.232s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/ros2_yolo/src/sensor_driver'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_unique_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_unique_msgs) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_unique_msgs) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_unique_msgs) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_unique_msgs) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_unique_msgs) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_unique_msgs) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_unique_msgs) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_unique_msgs) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common_unique_msgs' with type 'ros.ament_cmake' and name 'common_unique_msgs'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu5651_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu5651_driver) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu5651_driver) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu5651_driver) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu5651_driver) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu5651_driver) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu5651_driver) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu5651_driver) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu5651_driver) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu5651_driver' with type 'ros.ament_cmake' and name 'imu5651_driver'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_speed) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_speed) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_speed) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_speed) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_speed) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_speed) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_speed) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_speed) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_speed) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_speed' with type 'ros.ament_cmake' and name 'imu_speed'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan-foxy) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan-foxy) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan-foxy) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan-foxy) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan-foxy) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan-foxy) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan-foxy) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan-foxy) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan-foxy) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_to_laserscan-foxy' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros-4.55.1/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera_msgs) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera_msgs) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_camera_msgs) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros-4.55.1/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_description) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_description) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_description) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_description) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_description) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_description) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_description) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/realsense2_description) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros-4.55.1/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros-4.55.1/scripts) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_msg' with type 'ros.ament_cmake' and name 'rslidar_msg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_sdk' with type 'ros.ament_cmake' and name 'rslidar_sdk'
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.285s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /workspace/ros2_yolo/install
+[0.286s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 356 installed packages in /opt/ros/humble
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'common_unique_msgs' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'common_unique_msgs' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'common_unique_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'common_unique_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'common_unique_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'common_unique_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'common_unique_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'common_unique_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'common_unique_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'common_unique_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs', 'merge_install': False, 'path': '/workspace/ros2_yolo/src/sensor_driver/src/common_unique_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'imu_speed' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'imu_speed' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'imu_speed' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'imu_speed' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'imu_speed' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'imu_speed' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'imu_speed' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'imu_speed' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'imu_speed' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'imu_speed' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_yolo/src/sensor_driver/build/imu_speed', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed', 'merge_install': False, 'path': '/workspace/ros2_yolo/src/sensor_driver/src/imu_speed', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/workspace/ros2_yolo/src/sensor_driver/src/pointcloud_to_laserscan-foxy', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg', 'merge_install': False, 'path': '/workspace/ros2_yolo/src/sensor_driver/src/rslidar_msg', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'imu5651_driver' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'imu5651_driver' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'imu5651_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'imu5651_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'imu5651_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'imu5651_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'imu5651_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'imu5651_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'imu5651_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'imu5651_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_yolo/src/sensor_driver/build/imu5651_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver', 'merge_install': False, 'path': '/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera', 'merge_install': False, 'path': '/workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description', 'merge_install': False, 'path': '/workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_description', 'symlink_install': False, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_sdk', 'merge_install': False, 'path': '/workspace/ros2_yolo/src/sensor_driver/src/rslidar_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.317s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.317s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.317s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs'
+[0.319s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_yolo/src/sensor_driver/src/common_unique_msgs' with build type 'ament_cmake'
+[0.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_yolo/src/sensor_driver/src/common_unique_msgs'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_yolo/src/sensor_driver/src/rslidar_msg' with build type 'ament_cmake'
+[0.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_yolo/src/sensor_driver/src/rslidar_msg'
+[0.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_yolo/src/sensor_driver/src/imu_speed' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_yolo/src/sensor_driver/src/imu_speed'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_yolo/src/sensor_driver/src/pointcloud_to_laserscan-foxy' with build type 'ament_cmake'
+[0.336s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_yolo/src/sensor_driver/src/pointcloud_to_laserscan-foxy'
+[0.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/common_unique_msgs -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/imu_speed': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/imu_speed -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/imu_speed
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/pointcloud_to_laserscan-foxy -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan
+[1.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/imu_speed' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/imu_speed -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/imu_speed
+[1.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/imu_speed': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/imu_speed -- -j112 -l112
+[2.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/pointcloud_to_laserscan-foxy -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan
+[2.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan -- -j112 -l112
+[2.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/common_unique_msgs -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs
+[2.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs -- -j112 -l112
+[2.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs
+[2.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs -- -j112 -l112
+[2.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg
+[2.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg -- -j112 -l112
+[4.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg -- -j112 -l112
+[4.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg
+[4.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[4.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/rslidar_msg
+[4.541s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg' for CMake module files
+[4.542s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg' for CMake config files
+[4.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[4.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[4.544s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/lib'
+[4.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[4.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[4.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[4.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[4.545s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/bin'
+[4.545s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[4.545s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/lib/python3.10/site-packages'
+[4.545s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/bin'
+[4.546s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[4.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[4.547s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.sh'
+[4.547s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.bash'
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[4.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[4.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg' for CMake module files
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg' for CMake config files
+[4.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[4.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[4.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[4.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[4.550s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/lib'
+[4.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[4.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[4.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[4.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[4.551s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/bin'
+[4.551s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[4.552s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/lib/python3.10/site-packages'
+[4.552s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/bin'
+[4.552s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.sh'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.bash'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[4.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[4.554s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_yolo/src/sensor_driver/src/rslidar_sdk' with build type 'ament_cmake'
+[4.554s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_yolo/src/sensor_driver/src/rslidar_sdk'
+[4.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_sdk': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_sdk
+[5.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs -- -j112 -l112
+[5.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs
+[5.354s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[5.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs
+[5.355s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs' for CMake module files
+[5.356s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs' for CMake config files
+[5.356s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[5.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[5.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[5.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[5.358s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib'
+[5.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[5.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[5.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[5.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[5.358s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/bin'
+[5.359s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[5.359s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[5.359s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/bin'
+[5.359s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[5.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[5.360s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[5.360s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[5.360s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[5.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[5.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[5.361s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs' for CMake module files
+[5.361s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs' for CMake config files
+[5.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[5.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[5.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[5.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[5.363s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib'
+[5.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[5.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[5.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[5.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/bin'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[5.364s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/bin'
+[5.364s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[5.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[5.365s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[5.365s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[5.365s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[5.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[5.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera' with build type 'ament_cmake'
+[5.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera'
+[5.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.370s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_description' with build type 'ament_cmake'
+[5.370s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_description'
+[5.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera
+[5.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_description -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description
+[6.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs -- -j112 -l112
+[6.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs
+[6.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common_unique_msgs)
+[6.108s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs' for CMake module files
+[6.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs
+[6.109s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs' for CMake config files
+[6.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_unique_msgs', 'cmake_prefix_path')
+[6.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/cmake_prefix_path.ps1'
+[6.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/cmake_prefix_path.dsv'
+[6.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/cmake_prefix_path.sh'
+[6.111s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib'
+[6.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_unique_msgs', 'ld_library_path_lib')
+[6.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/ld_library_path_lib.ps1'
+[6.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/ld_library_path_lib.dsv'
+[6.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/ld_library_path_lib.sh'
+[6.112s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/bin'
+[6.112s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib/pkgconfig/common_unique_msgs.pc'
+[6.112s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib/python3.10/site-packages'
+[6.112s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/bin'
+[6.113s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.ps1'
+[6.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.dsv'
+[6.113s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.sh'
+[6.114s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.bash'
+[6.114s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.zsh'
+[6.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/colcon-core/packages/common_unique_msgs)
+[6.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common_unique_msgs)
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs' for CMake module files
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs' for CMake config files
+[6.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_unique_msgs', 'cmake_prefix_path')
+[6.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/cmake_prefix_path.ps1'
+[6.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/cmake_prefix_path.dsv'
+[6.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/cmake_prefix_path.sh'
+[6.117s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib'
+[6.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_unique_msgs', 'ld_library_path_lib')
+[6.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/ld_library_path_lib.ps1'
+[6.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/ld_library_path_lib.dsv'
+[6.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/hook/ld_library_path_lib.sh'
+[6.118s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/bin'
+[6.118s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib/pkgconfig/common_unique_msgs.pc'
+[6.118s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib/python3.10/site-packages'
+[6.118s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/bin'
+[6.118s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.ps1'
+[6.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.dsv'
+[6.119s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.sh'
+[6.119s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.bash'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/common_unique_msgs/package.zsh'
+[6.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/share/colcon-core/packages/common_unique_msgs)
+[6.120s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver' with build type 'ament_cmake'
+[6.120s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver'
+[6.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/imu_speed' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/imu_speed -- -j112 -l112
+[6.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/imu_speed': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/imu_speed
+[6.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/imu5651_driver': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver
+[6.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_speed)
+[6.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/imu_speed' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/imu_speed
+[6.139s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed' for CMake module files
+[6.139s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed' for CMake config files
+[6.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_speed', 'cmake_prefix_path')
+[6.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/hook/cmake_prefix_path.ps1'
+[6.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/hook/cmake_prefix_path.dsv'
+[6.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/hook/cmake_prefix_path.sh'
+[6.140s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/lib'
+[6.140s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/bin'
+[6.140s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/lib/pkgconfig/imu_speed.pc'
+[6.141s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/lib/python3.10/site-packages'
+[6.141s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/bin'
+[6.141s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.ps1'
+[6.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.dsv'
+[6.142s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.sh'
+[6.142s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.bash'
+[6.142s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.zsh'
+[6.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/colcon-core/packages/imu_speed)
+[6.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_speed)
+[6.143s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed' for CMake module files
+[6.143s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed' for CMake config files
+[6.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_speed', 'cmake_prefix_path')
+[6.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/hook/cmake_prefix_path.ps1'
+[6.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/hook/cmake_prefix_path.dsv'
+[6.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/hook/cmake_prefix_path.sh'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/lib'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/bin'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/lib/pkgconfig/imu_speed.pc'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/lib/python3.10/site-packages'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/bin'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.ps1'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.dsv'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.sh'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.bash'
+[6.147s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/imu_speed/package.zsh'
+[6.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/imu_speed/share/colcon-core/packages/imu_speed)
+[6.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_sdk
+[6.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/rslidar_sdk': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/rslidar_sdk -- -j112 -l112
+[6.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_description -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description
+[6.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/realsense2_description -- -j112 -l112
+[6.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/realsense2_description -- -j112 -l112
+[6.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/realsense2_description
+[6.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[6.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/realsense2_description
+[6.619s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description' for CMake module files
+[6.619s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description' for CMake config files
+[6.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[6.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[6.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[6.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[6.621s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/bin'
+[6.621s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[6.621s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/lib/python3.10/site-packages'
+[6.621s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/bin'
+[6.621s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.ps1'
+[6.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.dsv'
+[6.622s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.sh'
+[6.622s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.bash'
+[6.622s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.zsh'
+[6.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[6.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[6.623s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description' for CMake module files
+[6.623s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description' for CMake config files
+[6.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[6.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[6.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[6.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[6.624s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/bin'
+[6.625s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[6.625s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/lib/python3.10/site-packages'
+[6.625s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/bin'
+[6.625s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.ps1'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.dsv'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.sh'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.bash'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/realsense2_description/package.zsh'
+[6.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[7.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/imu5651_driver' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_yolo/src/sensor_driver/src/imu5651_driver -DCMAKE_INSTALL_PREFIX=/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver
+[7.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/imu5651_driver': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/imu5651_driver -- -j112 -l112
+[11.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/imu5651_driver' returned '2': AMENT_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs:/workspace/ros2_yolo/install/vision_msgs_rviz_plugins:/workspace/ros2_yolo/install/ultralytics_ros:/workspace/ros2_yolo/install/ros2_numpy:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble LD_LIBRARY_PATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_yolo/src/sensor_driver/install/common_unique_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/imu5651_driver -- -j112 -l112
+[11.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu5651_driver)
+[11.415s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver' for CMake module files
+[11.415s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver' for CMake config files
+[11.416s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/bin'
+[11.416s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/lib/pkgconfig/imu5651_driver.pc'
+[11.416s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/lib/python3.10/site-packages'
+[11.416s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/bin'
+[11.416s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/package.ps1'
+[11.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/package.dsv'
+[11.417s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/package.sh'
+[11.417s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/package.bash'
+[11.417s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/imu5651_driver/package.zsh'
+[11.418s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_yolo/src/sensor_driver/install/imu5651_driver/share/colcon-core/packages/imu5651_driver)
+[20.422s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[20.423s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.429s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.430s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.430s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.436s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[20.437s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_yolo/src/sensor_driver/install/local_setup.ps1'
+[20.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_yolo/src/sensor_driver/install/_local_setup_util_ps1.py'
+[20.441s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_yolo/src/sensor_driver/install/setup.ps1'
+[20.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_yolo/src/sensor_driver/install/local_setup.sh'
+[20.443s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_yolo/src/sensor_driver/install/_local_setup_util_sh.py'
+[20.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_yolo/src/sensor_driver/install/setup.sh'
+[20.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_yolo/src/sensor_driver/install/local_setup.bash'
+[20.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_yolo/src/sensor_driver/install/setup.bash'
+[20.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_yolo/src/sensor_driver/install/local_setup.zsh'
+[20.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_yolo/src/sensor_driver/install/setup.zsh'

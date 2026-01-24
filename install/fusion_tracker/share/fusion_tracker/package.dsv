@@ -1,0 +1,9 @@
+source;share/fusion_tracker/hook/pythonpath.ps1
+source;share/fusion_tracker/hook/pythonpath.dsv
+source;share/fusion_tracker/hook/pythonpath.sh
+source;share/fusion_tracker/hook/ament_prefix_path.ps1
+source;share/fusion_tracker/hook/ament_prefix_path.dsv
+source;share/fusion_tracker/hook/ament_prefix_path.sh
+source;../../build/fusion_tracker/share/fusion_tracker/hook/pythonpath_develop.ps1
+source;../../build/fusion_tracker/share/fusion_tracker/hook/pythonpath_develop.dsv
+source;../../build/fusion_tracker/share/fusion_tracker/hook/pythonpath_develop.sh

@@ -1,0 +1,1 @@
+/workspace/CogniScope/build/rslidar_msg/rosidl_typesupport_fastrtps_cpp/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp

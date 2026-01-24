@@ -1,0 +1,10 @@
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/uninstall.dir
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/imu5651_driver_uninstall.dir
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/imu5651_driver.dir
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/test.dir
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/edit_cache.dir
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/rebuild_cache.dir
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/list_install_components.dir
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/install.dir
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/install/local.dir
+/workspace/CogniScope/build/imu5651_driver/CMakeFiles/install/strip.dir

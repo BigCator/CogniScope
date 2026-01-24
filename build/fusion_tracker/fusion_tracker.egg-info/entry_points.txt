@@ -1,0 +1,3 @@
+[console_scripts]
+fusion_tracker_node = fusion_tracker.fusion_tracker_node:main
+

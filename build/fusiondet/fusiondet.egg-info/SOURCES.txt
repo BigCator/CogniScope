@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+fusiondet/__init__.py
+fusiondet/mstdet.py
+fusiondet/test.py
+fusiondet/test1.py
+fusiondet/test_carla.py
+fusiondet.egg-info/PKG-INFO
+fusiondet.egg-info/SOURCES.txt
+fusiondet.egg-info/dependency_links.txt
+fusiondet.egg-info/entry_points.txt
+fusiondet.egg-info/requires.txt
+fusiondet.egg-info/top_level.txt
+fusiondet.egg-info/zip-safe
+resource/fusiondet

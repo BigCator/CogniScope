@@ -1,0 +1,8 @@
+prefix=/home/neousys/driver/360_camera/360_camera_ws/devel
+
+Name: rocon_python_hue
+Description: Description of rocon_python_hue
+Version: 0.0.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

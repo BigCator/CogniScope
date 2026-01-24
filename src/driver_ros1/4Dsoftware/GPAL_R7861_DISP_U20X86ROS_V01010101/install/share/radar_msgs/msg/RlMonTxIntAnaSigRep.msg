@@ -1,0 +1,7 @@
+uint16 statusFlags
+uint16 errorCode
+uint8 profIndex
+uint8 reserved0
+uint8 phShiftDacIdeltaMin
+uint8 phShiftDacQdeltaMin
+uint32 timeStamp

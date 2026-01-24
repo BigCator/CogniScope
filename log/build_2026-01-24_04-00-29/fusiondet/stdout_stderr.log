@@ -1,0 +1,16 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+  warnings.warn(
+running egg_info
+creating fusiondet.egg-info
+writing manifest file 'fusiondet.egg-info/SOURCES.txt'
+writing manifest file 'fusiondet.egg-info/SOURCES.txt'
+running build_ext
+running symlink_data
+creating /workspace/CogniScope/install/fusiondet/share/ament_index
+creating /workspace/CogniScope/install/fusiondet/share/ament_index/resource_index
+creating /workspace/CogniScope/install/fusiondet/share/ament_index/resource_index/packages
+symbolically linking /workspace/CogniScope/build/fusiondet/resource/fusiondet -> /workspace/CogniScope/install/fusiondet/share/ament_index/resource_index/packages
+symbolically linking /workspace/CogniScope/build/fusiondet/package.xml -> /workspace/CogniScope/install/fusiondet/share/fusiondet

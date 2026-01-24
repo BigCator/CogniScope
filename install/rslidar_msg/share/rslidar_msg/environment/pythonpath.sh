@@ -1,0 +1,1 @@
+/workspace/CogniScope/build/rslidar_msg/ament_cmake_environment_hooks/pythonpath.sh

@@ -1,0 +1,41 @@
+UniHeader header
+#卫星定位
+int32 ui_satel_lon
+int32 ui_satel_lat
+int32 ui_satel_alt
+
+#0x00 无效 0x01 单点 0x02 差分
+uint8 uc_satle_state
+
+#惯导定位
+int32 ui_nav_lon
+int32 ui_nav_lat
+int32 ui_nav_alt
+
+#航向角 【0-360】
+uint16 us_nav_yaw
+int16 s_nav_pitch
+int16 s_nav_roll
+
+int16 s_nav_vx
+int16 s_nav_vy
+int16 s_nav_vz
+
+int16 s_nav_wx
+int16 s_nav_wy
+int16 s_nav_wz
+
+uint32 ui_mileage
+uint64 ul_satel_time
+
+#工作时间 0.001 s
+uint32 ui_work_time
+# 0 正在启动 1 启动完毕 2 正在对准 3 组合导航 4 无卫星导航 5 系统异常
+uint8 uc_work_state
+
+# 0 纯惯性 1 惯性里程计 2 惯性卫星 3 无效
+uint8 uc_nav_state
+
+uint16 reserve1
+uint16 reserve2
+uint16 us_check_sum

@@ -1,0 +1,3 @@
+[console_scripts]
+see_beyond_node = see_beyond_ros2.see_beyond_ros2_node:main
+

@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000465] (-) JobUnselected: {'identifier': 'common_unique_msgs'}
+[0.000551] (-) JobUnselected: {'identifier': 'fusion_tracker'}
+[0.000606] (-) JobUnselected: {'identifier': 'fusiondet'}
+[0.000650] (-) JobUnselected: {'identifier': 'imu5651_driver'}
+[0.000691] (-) JobUnselected: {'identifier': 'imu_speed'}
+[0.000733] (-) JobUnselected: {'identifier': 'pcdet_ros2'}
+[0.000776] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.000817] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000860] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000900] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000941] (-) JobUnselected: {'identifier': 'ros2_numpy'}
+[0.000982] (-) JobUnselected: {'identifier': 'rslidar_msg'}
+[0.001127] (-) JobUnselected: {'identifier': 'rslidar_sdk'}
+[0.001344] (-) JobUnselected: {'identifier': 'ultralytics_ros'}
+[0.001448] (-) JobUnselected: {'identifier': 'vision_msgs_rviz_plugins'}
+[0.001637] (see_beyond_ros2) JobQueued: {'identifier': 'see_beyond_ros2', 'dependencies': OrderedDict()}
+[0.001730] (see_beyond_ros2) JobStarted: {'identifier': 'see_beyond_ros2'}
+[0.098614] (-) TimerEvent: {}
+[0.199257] (-) TimerEvent: {}
+[0.300035] (-) TimerEvent: {}
+[0.400734] (-) TimerEvent: {}
+[0.501394] (-) TimerEvent: {}
+[0.601933] (-) TimerEvent: {}
+[0.665982] (see_beyond_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/see_beyond_ros2', 'build', '--build-base', '/workspace/CogniScope/build/see_beyond_ros2/build', 'install', '--record', '/workspace/CogniScope/build/see_beyond_ros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/CogniScope/src/see_beyond_ros2', 'env': {'USER': 'ubuntu', 'HOSTNAME': 'dell-Precision-7960-Tower', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.1/lib64:/usr/local/cuda-12.1/lib64:/workspace/CogniScope/install/vision_msgs_rviz_plugins/lib:/workspace/CogniScope/install/ultralytics_ros/lib:/workspace/CogniScope/install/rslidar_msg/lib:/workspace/CogniScope/install/realsense2_camera/lib:/workspace/CogniScope/install/realsense2_camera_msgs/lib:/workspace/CogniScope/install/pointcloud_to_laserscan/lib:/workspace/CogniScope/install/common_unique_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/workspace/CogniScope/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/workspace/CogniScope/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-12.1/bin:/usr/local/cuda-12.1/bin:/workspace/CogniScope/install/see_beyond_ros2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/workspace/CogniScope/install/vision_msgs_rviz_plugins:/workspace/CogniScope/install/ultralytics_ros:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/rslidar_sdk:/workspace/CogniScope/install/rslidar_msg:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/ros2_numpy:/workspace/CogniScope/install/realsense2_description:/workspace/CogniScope/install/realsense2_camera:/workspace/CogniScope/install/realsense2_camera_msgs:/workspace/CogniScope/install/pointcloud_to_laserscan:/workspace/CogniScope/install/imu_speed:/workspace/CogniScope/install/imu5651_driver:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/workspace/CogniScope/install/common_unique_msgs:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/workspace/CogniScope/build/see_beyond_ros2', 'CUDA_HOME': '/usr/local/cuda-12.1', 'PYTHONPATH': '/workspace/CogniScope/build/see_beyond_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages:/workspace/CogniScope/install/ultralytics_ros/local/lib/python3.10/dist-packages:/workspace/CogniScope/build/see_beyond_ros2:/workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages:/workspace/CogniScope/install/rslidar_msg/local/lib/python3.10/dist-packages:/workspace/CogniScope/build/pcdet_ros2:/workspace/CogniScope/install/pcdet_ros2/lib/python3.10/site-packages:/workspace/CogniScope/install/ros2_numpy/local/lib/python3.10/dist-packages:/workspace/CogniScope/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/workspace/CogniScope/build/fusiondet:/workspace/CogniScope/install/fusiondet/lib/python3.10/site-packages:/workspace/CogniScope/build/fusion_tracker:/workspace/CogniScope/install/fusion_tracker/lib/python3.10/site-packages:/workspace/CogniScope/install/common_unique_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/workspace/ros2_yolo/src/AB3DMOT-master/Xinshuo_PyToolbox:/workspace/CogniScope/src/AB3DMOT-master/Xinshuo_PyToolbox', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/CogniScope/install/vision_msgs_rviz_plugins:/workspace/CogniScope/install/ultralytics_ros:/workspace/CogniScope/install/rslidar_sdk:/workspace/CogniScope/install/rslidar_msg:/workspace/CogniScope/install/ros2_numpy:/workspace/CogniScope/install/realsense2_description:/workspace/CogniScope/install/realsense2_camera:/workspace/CogniScope/install/realsense2_camera_msgs:/workspace/CogniScope/install/pointcloud_to_laserscan:/workspace/CogniScope/install/imu_speed:/workspace/CogniScope/install/imu5651_driver:/workspace/CogniScope/install/common_unique_msgs'}, 'shell': False}
+[0.702031] (-) TimerEvent: {}
+[0.802386] (-) TimerEvent: {}
+[0.902863] (-) TimerEvent: {}
+[0.906621] (see_beyond_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[0.906913] (see_beyond_ros2) StdoutLine: {'line': b'creating ../../build/see_beyond_ros2/see_beyond_ros2.egg-info\n'}
+[0.907372] (see_beyond_ros2) StdoutLine: {'line': b"writing manifest file '../../build/see_beyond_ros2/see_beyond_ros2.egg-info/SOURCES.txt'\n"}
+[0.908897] (see_beyond_ros2) StdoutLine: {'line': b"writing manifest file '../../build/see_beyond_ros2/see_beyond_ros2.egg-info/SOURCES.txt'\n"}
+[0.909040] (see_beyond_ros2) StdoutLine: {'line': b'running build\n'}
+[0.909216] (see_beyond_ros2) StdoutLine: {'line': b'running build_py\n'}
+[0.909286] (see_beyond_ros2) StdoutLine: {'line': b'creating /workspace/CogniScope/build/see_beyond_ros2/build\n'}
+[0.909401] (see_beyond_ros2) StdoutLine: {'line': b'creating /workspace/CogniScope/build/see_beyond_ros2/build/lib\n'}
+[0.909468] (see_beyond_ros2) StdoutLine: {'line': b'creating /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2\n'}
+[0.909533] (see_beyond_ros2) StdoutLine: {'line': b'copying see_beyond_ros2/fusion_detector.py -> /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2\n'}
+[0.909627] (see_beyond_ros2) StdoutLine: {'line': b'copying see_beyond_ros2/see_beyond_ros2_node.py -> /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2\n'}
+[0.909682] (see_beyond_ros2) StdoutLine: {'line': b'copying see_beyond_ros2/__init__.py -> /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2\n'}
+[0.909737] (see_beyond_ros2) StdoutLine: {'line': b'copying see_beyond_ros2/msg_utils.py -> /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2\n'}
+[0.909791] (see_beyond_ros2) StdoutLine: {'line': b'running install\n'}
+[0.910906] (see_beyond_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[0.911398] (see_beyond_ros2) StdoutLine: {'line': b'creating /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2\n'}
+[0.911506] (see_beyond_ros2) StdoutLine: {'line': b'copying /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2/fusion_detector.py -> /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2\n'}
+[0.911613] (see_beyond_ros2) StdoutLine: {'line': b'copying /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2/see_beyond_ros2_node.py -> /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2\n'}
+[0.911733] (see_beyond_ros2) StdoutLine: {'line': b'copying /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2/__init__.py -> /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2\n'}
+[0.911794] (see_beyond_ros2) StdoutLine: {'line': b'copying /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2/msg_utils.py -> /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2\n'}
+[0.912051] (see_beyond_ros2) StdoutLine: {'line': b'byte-compiling /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2/fusion_detector.py to fusion_detector.cpython-310.pyc\n'}
+[0.913360] (see_beyond_ros2) StdoutLine: {'line': b'byte-compiling /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2/see_beyond_ros2_node.py to see_beyond_ros2_node.cpython-310.pyc\n'}
+[0.913788] (see_beyond_ros2) StdoutLine: {'line': b'byte-compiling /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2/__init__.py to __init__.cpython-310.pyc\n'}
+[0.913880] (see_beyond_ros2) StdoutLine: {'line': b'byte-compiling /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2/msg_utils.py to msg_utils.cpython-310.pyc\n'}
+[0.914565] (see_beyond_ros2) StdoutLine: {'line': b'running install_data\n'}
+[0.914669] (see_beyond_ros2) StdoutLine: {'line': b'creating /workspace/CogniScope/install/see_beyond_ros2/share/ament_index\n'}
+[0.914723] (see_beyond_ros2) StdoutLine: {'line': b'creating /workspace/CogniScope/install/see_beyond_ros2/share/ament_index/resource_index\n'}
+[0.914798] (see_beyond_ros2) StdoutLine: {'line': b'creating /workspace/CogniScope/install/see_beyond_ros2/share/ament_index/resource_index/packages\n'}
+[0.914887] (see_beyond_ros2) StdoutLine: {'line': b'copying resource/see_beyond_ros2 -> /workspace/CogniScope/install/see_beyond_ros2/share/ament_index/resource_index/packages\n'}
+[0.914931] (see_beyond_ros2) StdoutLine: {'line': b'copying package.xml -> /workspace/CogniScope/install/see_beyond_ros2/share/see_beyond_ros2\n'}
+[0.915048] (see_beyond_ros2) StdoutLine: {'line': b'creating /workspace/CogniScope/install/see_beyond_ros2/share/see_beyond_ros2/launch\n'}
+[0.915117] (see_beyond_ros2) StdoutLine: {'line': b'copying launch/see_beyond_ros2.launch.py -> /workspace/CogniScope/install/see_beyond_ros2/share/see_beyond_ros2/launch\n'}
+[0.915161] (see_beyond_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.915296] (see_beyond_ros2) StdoutLine: {'line': b'Copying ../../build/see_beyond_ros2/see_beyond_ros2.egg-info to /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2-0.0.1-py3.10.egg-info\n'}
+[0.915714] (see_beyond_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[0.917724] (see_beyond_ros2) StdoutLine: {'line': b"writing list of installed files to '/workspace/CogniScope/build/see_beyond_ros2/install.log'\n"}
+[0.917790] (see_beyond_ros2) StdoutLine: {'line': b'=== PostInstallCommand \xe5\xbc\x80\xe5\xa7\x8b ===\n'}
+[0.917862] (see_beyond_ros2) StdoutLine: {'line': b'\xe6\xa3\x80\xe6\xb5\x8b\xe5\x88\xb0\xe5\xb7\xa5\xe4\xbd\x9c\xe7\xa9\xba\xe9\x97\xb4: /workspace/CogniScope\n'}
+[0.917953] (see_beyond_ros2) StdoutLine: {'line': b'bin_dir: /workspace/CogniScope/install/see_beyond_ros2/bin\n'}
+[0.917996] (see_beyond_ros2) StdoutLine: {'line': b'libexec_dir: /workspace/CogniScope/install/see_beyond_ros2/lib/see_beyond_ros2\n'}
+[0.918035] (see_beyond_ros2) StdoutLine: {'line': b'target: /workspace/CogniScope/install/see_beyond_ros2/bin/see_beyond_node\n'}
+[0.918073] (see_beyond_ros2) StdoutLine: {'line': b'link: /workspace/CogniScope/install/see_beyond_ros2/lib/see_beyond_ros2/see_beyond_node\n'}
+[0.918111] (see_beyond_ros2) StdoutLine: {'line': b'\xe2\x9c\x93 \xe5\xb7\xb2\xe5\x88\x9b\xe5\xbb\xba\xe7\xac\xa6\xe5\x8f\xb7\xe9\x93\xbe\xe6\x8e\xa5: /workspace/CogniScope/install/see_beyond_ros2/lib/see_beyond_ros2/see_beyond_node -> ../../bin/see_beyond_node\n'}
+[0.918151] (see_beyond_ros2) StdoutLine: {'line': b'=== PostInstallCommand \xe7\xbb\x93\xe6\x9d\x9f ===\n'}
+[0.941245] (see_beyond_ros2) CommandEnded: {'returncode': 0}
+[0.951360] (see_beyond_ros2) JobEnded: {'identifier': 'see_beyond_ros2', 'rc': 0}
+[0.952025] (-) EventReactorShutdown: {}

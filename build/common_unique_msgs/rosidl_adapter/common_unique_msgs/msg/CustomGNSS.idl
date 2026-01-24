@@ -1,0 +1,84 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from common_unique_msgs/msg/CustomGNSS.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module common_unique_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "CustomGNSS.msg")
+    struct CustomGNSS {
+      @verbatim (language="comment", text=
+        "标准头（时间戳 + 坐标系）")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "GPS周数")
+      @unit (value="0-9999")
+      uint16 gps_week;
+
+      @verbatim (language="comment", text=
+        "GPS周内秒数 [0.0-604800.0)")
+      double gps_time;
+
+      @verbatim (language="comment", text=
+        "航向角（0-360度）")
+      double heading;
+
+      @verbatim (language="comment", text=
+        "俯仰角（-90-90度）")
+      double pitch;
+
+      @verbatim (language="comment", text=
+        "横滚角（-180-180度）")
+      double roll;
+
+      @verbatim (language="comment", text=
+        "纬度（-90-90度）")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        "经度（-180-180度）")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        "海拔（米）")
+      double altitude;
+
+      @verbatim (language="comment", text=
+        "东向速度（m/s）")
+      double ve;
+
+      @verbatim (language="comment", text=
+        "北向速度（m/s）")
+      double vn;
+
+      @verbatim (language="comment", text=
+        "天向速度（m/s）")
+      double vu;
+
+      @verbatim (language="comment", text=
+        "基线长度（米）")
+      double baseline;
+
+      @verbatim (language="comment", text=
+        "主天线卫星数")
+      @unit (value="0-40")
+      uint8 nsv1;
+
+      @verbatim (language="comment", text=
+        "辅天线卫星数")
+      @unit (value="0-40")
+      uint8 nsv2;
+
+      @verbatim (language="comment", text=
+        "状态字（二进制位掩码）")
+      uint16 status;
+
+      @verbatim (language="comment", text=
+        "校验和（如\"1A\"）")
+      string checksum;
+    };
+  };
+};

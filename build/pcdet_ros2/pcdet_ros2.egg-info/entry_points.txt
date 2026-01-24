@@ -1,0 +1,4 @@
+[console_scripts]
+pcdet = pcdet_ros2.pcdet_node:main
+pcdet_tracker = pcdet_ros2.pcdet_tracker:main
+

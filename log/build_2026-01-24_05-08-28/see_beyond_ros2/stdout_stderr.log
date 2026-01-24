@@ -1,0 +1,16 @@
+running egg_info
+writing manifest file '../../build/see_beyond_ros2/see_beyond_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying see_beyond_ros2/see_beyond_ros2_node.py -> /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2
+running install
+running install_lib
+copying /workspace/CogniScope/build/see_beyond_ros2/build/lib/see_beyond_ros2/see_beyond_ros2_node.py -> /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2
+byte-compiling /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2/see_beyond_ros2_node.py to see_beyond_ros2_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/see_beyond_ros2/see_beyond_ros2.egg-info to /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/see_beyond_ros2-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/workspace/CogniScope/build/see_beyond_ros2/install.log'
+安装目录: /workspace/CogniScope/install/see_beyond_ros2/lib/python3.10/site-packages/

@@ -1,0 +1,1 @@
+/workspace/CogniScope/build/ultralytics_ros/rosidl_generator_py/ultralytics_ros/__init__.py

@@ -1,0 +1,1 @@
+/workspace/CogniScope/build/ultralytics_ros/ament_cmake_environment_hooks/pythonpath.sh

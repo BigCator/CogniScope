@@ -1,0 +1,7 @@
+digraph G {
+"map" -> "ultrasonic_sensor"[label="Broadcaster: /ultrasonic_radar_node\nAverage rate: 2.221 Hz\nMost recent transform: 1728875830.532 ( 0.045 sec old)\nBuffer length: 4.503 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1728875830.577"[ shape=plaintext ] ;
+ }->"map";
+}

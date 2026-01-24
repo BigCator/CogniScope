@@ -1,0 +1,35 @@
+# 模型权重
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+
+# 数据集
+/data/
+/datasets/
+**/training/
+**/testing/
+
+
+# rosbag
+*.db3
+rosbag2_*/
+
+
+# 输出与日志
+output/
+outputs/
+logs/
+results/
+
+
+# Python
+__pycache__/
+*.pyc
+
+
+# Docker
+docker_images/
+*.tar
+*.gz

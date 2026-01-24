@@ -1,0 +1,43 @@
+[0.028s] Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan -- -j112 -l112
+[0.169s] [ 14%] Built target dummy_pointcloud_publisher
+[0.172s] [ 28%] Built target laserscan_to_pointcloud_node
+[0.173s] [ 42%] Built target laserscan_to_occupancy_grid
+[0.179s] [ 57%] Built target pointcloud_to_laserscan_node
+[0.186s] [ 71%] Built target pointcloud_to_laserscan
+[0.188s] [ 85%] Built target copy_tf_publisher
+[0.190s] [100%] Built target laserscan_to_pointcloud
+[0.223s] Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan -- -j112 -l112
+[0.224s] Invoking command in '/workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan
+[0.232s] -- Install configuration: ""
+[0.232s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_occupancy_grid
+[0.232s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[0.232s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[0.233s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/copy_tf_publisher
+[0.233s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[0.233s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[0.233s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[0.233s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/include/include
+[0.233s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan
+[0.233s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/visibility_control.h
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/include/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[0.234s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[0.234s] -- Installing: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[0.235s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[0.235s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[0.235s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[0.235s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[0.235s] -- Up-to-date: /workspace/ros2_yolo/src/sensor_driver/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[0.236s] Invoked command in '/workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_yolo/install/pcdet_ros2:/workspace/ros2_yolo/install/fusiondet:/workspace/ros2_yolo/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_yolo/src/sensor_driver/build/pointcloud_to_laserscan

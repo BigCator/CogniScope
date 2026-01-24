@@ -1,0 +1,26 @@
+time:--16/07/2023 15:27:17
+model:--DNANet_att_edge_od
+channel_size:--three
+backbone:--resnet_18
+deep_supervision:--False
+dataset:--NUDT-SIRST
+mode:--TXT
+test_size:--0.5
+root:--dataset/
+suffix:--.png
+split_method:--50_50
+workers:--4
+in_channels:--3
+base_size:--256
+crop_size:--256
+resume:--result/NUDT-SIRST_DNANet_att_edge_od_16_07_2023_00_39_48_woDS/mIoU__DNANet_att_edge_od_NUDT-SIRST_epoch.pth.tar
+epochs:--110
+start_epoch:--0
+train_batch_size:--18
+test_batch_size:--18
+min_lr:--0.0001
+optimizer:--Adagrad
+scheduler:--CosineAnnealingLR
+lr:--0.005
+gpus:--0
+save_dir:--NUDT-SIRST_DNANet_att_edge_od_16_07_2023_15_27_17_woDS

@@ -1,0 +1,92 @@
+running develop
+/usr/local/lib/python3.10/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 2.0.5-build-libtorrent-rasterbar-qrM5vM-libtorrent-rasterbar-2.0.5-bindings-python is an invalid version and will not be supported in a future release
+  warnings.warn(
+running egg_info
+creating pcdet_ros2.egg-info
+writing manifest file 'pcdet_ros2.egg-info/SOURCES.txt'
+writing manifest file 'pcdet_ros2.egg-info/SOURCES.txt'
+running build_ext
+running symlink_data
+creating /workspace/CogniScope/install/pcdet_ros2/share/ament_index
+creating /workspace/CogniScope/install/pcdet_ros2/share/ament_index/resource_index
+creating /workspace/CogniScope/install/pcdet_ros2/share/ament_index/resource_index/packages
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/resource/pcdet_ros2 -> /workspace/CogniScope/install/pcdet_ros2/share/ament_index/resource_index/packages
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/package.xml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/launch
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/launch/parta2_free.launch.xml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/launch
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/launch/pp_multihead_nds.launch.xml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/launch
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/launch/pcdet.launch.py -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/launch
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/launch/pcdet_with_tracking.launch.py -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/launch
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/launch/second_multihead_nds.launch.xml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/launch
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/config
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/config/parta2_free.param.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/config
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/config/pp_multihead_nds.param.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/config
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/config/pcdet_pvrcnn.param.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/config
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/config/tracker.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/config
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/config/cbgs_second_multihead_nds.param.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/config
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/custom_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/custom_models/second.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/custom_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/custom_models/pv_rcnn.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/custom_models
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/dataset_configs
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/dataset_configs/nuscenes_dataset.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/dataset_configs
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/dataset_configs/custom_dataset.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/dataset_configs
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/dataset_configs/kitti_dataset.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/dataset_configs
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/dataset_configs/once_dataset.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/dataset_configs
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/dataset_configs/waymo_dataset.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/dataset_configs
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/dataset_configs/waymo_dataset_multiframe.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/dataset_configs
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/dataset_configs/pandaset_dataset.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/dataset_configs
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/dataset_configs/lyft_dataset.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/dataset_configs
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/PartA2_free.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/second_multihead.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/PartA2.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/voxel_rcnn_car.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/pointpillar.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/pointpillar_pyramid_aug.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/pointpillar_newaugs.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/pillarnet.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/pointrcnn_iou.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/voxel_rcnn_car_focal_multimodal.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/CaDDN.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/second_iou.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/second.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/pointrcnn.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/kitti_models/pv_rcnn.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/kitti_models
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/lyft_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/lyft_models/cbgs_second_multihead.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/lyft_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/lyft_models/cbgs_second-nores_multihead.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/lyft_models
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/nuscenes_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/nuscenes_models/cbgs_pillar0075_res2d_centerpoint.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/nuscenes_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/nuscenes_models/cbgs_dyn_pp_centerpoint.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/nuscenes_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/nuscenes_models/cbgs_voxel01_res3d_centerpoint.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/nuscenes_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/nuscenes_models/cbgs_voxel0075_res3d_centerpoint.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/nuscenes_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/nuscenes_models/cbgs_pp_multihead.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/nuscenes_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/nuscenes_models/cbgs_second_multihead.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/nuscenes_models
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/once_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/once_models/pointpillar.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/once_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/once_models/centerpoint.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/once_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/once_models/second.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/once_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/once_models/pointrcnn.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/once_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/once_models/pv_rcnn.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/once_models
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/voxel_rcnn_with_centerhead_dyn_voxel.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/mppnet_16frames.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/centerpoint_pillar_1x.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/pv_rcnn_plusplus_resnet.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/mppnet_4frames.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/centerpoint_dyn_pillar_1x.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/pv_rcnn_with_centerhead_rpn.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/pv_rcnn_plusplus_resnet_2frames.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/PartA2.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/pillarnet.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/centerpoint.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/mppnet_e2e_memorybank_inference.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/centerpoint_4frames.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/pv_rcnn_plusplus.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/second.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/centerpoint_without_resnet.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/pointpillar_1x.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/cfgs/waymo_models/pv_rcnn.yaml -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/cfgs/waymo_models
+creating /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/checkpoints
+symbolically linking /workspace/CogniScope/build/pcdet_ros2/checkpoints/pv_rcnn_8369.pth -> /workspace/CogniScope/install/pcdet_ros2/share/pcdet_ros2/checkpoints

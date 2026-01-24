@@ -1,0 +1,10 @@
+{
+  "package_name": "realsense2_camera_msgs",
+  "non_idl_tuples": [
+    "/workspace/CogniScope/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs:msg/IMUInfo.msg",
+    "/workspace/CogniScope/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs:msg/Extrinsics.msg",
+    "/workspace/CogniScope/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs:msg/Metadata.msg",
+    "/workspace/CogniScope/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs:msg/RGBD.msg",
+    "/workspace/CogniScope/src/sensor_driver/src/realsense-ros-4.55.1/realsense2_camera_msgs:srv/DeviceInfo.srv"
+  ]
+}

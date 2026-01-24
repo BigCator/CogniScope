@@ -1,0 +1,82 @@
+容器构建命令
+docker run -it --ipc=host --network host \
+    -e DISPLAY=$DISPLAY \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    --volume=/dev/dri:/dev/dri \
+    --device=/dev/snd \
+    --device=/dev/dri \
+    -v /home/lenovo/data_lidar_radar:/root/data \
+    -v /home/lenovo/xzx_ws/See_beyond_seeing:/seeing_beyond \
+    --env="NVIDIA_DRIVER_CAPABILITIES=all" \
+    --gpus all \
+    --name seeing_beyond_test \
+    docker.io/gc625kodifly/seeing_beyond:latest \
+    /bin/bash
+    
+    
+    可视化命令
+    python demo.py --cfg_file cfgs/kitti_models/cfar-lidar.yaml  --data_path ~/data/view_of_delft_PUBLIC/lidar/training/velodyne/00012.bin --ckpt ../ckpts/cfar/cfar-lidar-rcs.pth 
+    
+    x
+    
+    宿主机需要运行 xhost + 命令打开X11才能让docker使用外部图像硬件
+ 
+    宿主机先开xhost +，再建容器
+    apt install libgl1 libglvnd-dev
+    apt install mesa-utils
+    apt install libgl1-mesa-glx libglu1-mesa libglew-dev
+    apt install mesa-utils mesa-common-dev
+    检查opengl
+    glxinfo | grep OpenGL
+    
+    安装x和渲染库
+    apt install -y x11-utils
+    xeyes
+    pip install vtk==9.2.6 -i https://pypi.tuna.tsinghua.edu.cn/simple
+    apt install -y x11-xkb-utils xkb-data libxkbcommon-x11-0
+    pip install PyQT5 -i https://pypi.tuna.tsinghua.edu.cn/simple
+    
+      这个文件夹中See_beyond_seeing-main对应的容器是see_new，调试论文用的新网络
+      
+      VSCODE中打开的是 See_beyond_seeing对应的容器是See_beyond_test，test的可视化正常运行，已经修复，但只能看单帧，之后在这个基础上进行修改,现在用来做消融实验
+      
+      出现QT报错，则安装pyQT，出现无pcdet，则需要python setup.py develop
+      
+      问题：qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found
+      解决办法：
+      apt-get install libxcb-xinerama0
+      apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev
+   
+   
+   
+   Preprocessing Dataset   
+      
+	cd /seeing_beyond
+	python3 /seeing_beyond/tools/prepare_vod_dataset.py
+
+	python3 setup.py develop 
+
+	cd /seeing_beyond/pcdet/ops/pointnet2/pointnet2_3DSSD
+	python3 setup.py develop
+
+	python3 -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos /seeing_beyond/tools/cfgs/dataset_configs/vod_lidar_dataset.yaml
+	python3 -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos /seeing_beyond/tools/cfgs/dataset_configs/vod_radar_dataset.yaml
+	      
+   Evaluation   
+	# LiDAR main modality, radar aux
+	./seeing_beyond/tools/eval_cfar_lidar.sh
+	# Radar main modality, LiDAR aux
+	/seeing_beyond/tools/eval_cfar_radar.sh  
+	
+  Training
+	
+	# LiDAR main modality, radar aux
+	./seeing_beyond/tools/trian_cfar_lidar.sh
+	# Radar main modality, LiDAR aux
+	/seeing_beyond/tools/trian_cfar_radar.sh
+	
+	
+推理过程
+python3 eval_single_epoch.py --cfg_file /seeing_beyond/tools/cfgs/kitti_models/cfar-lidar.yaml --ckpt /seeing_beyond/output/cfar-lidar/hy_RDP5\:3_24compress_test/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth --pretrained_model /seeing_beyond/ckpts/cfar/cfar-lidar-rcs.pth 
+
+			      

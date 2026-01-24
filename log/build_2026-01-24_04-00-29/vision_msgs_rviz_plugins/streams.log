@@ -1,0 +1,154 @@
+[0.834s] Invoking command in '/workspace/CogniScope/build/vision_msgs_rviz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/CogniScope/src/vision_msgs_rviz_plugins-humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/CogniScope/install/vision_msgs_rviz_plugins
+[0.888s] -- The C compiler identification is GNU 11.4.0
+[0.938s] -- The CXX compiler identification is GNU 11.4.0
+[0.946s] -- Detecting C compiler ABI info
+[1.023s] -- Detecting C compiler ABI info - done
+[1.030s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.031s] -- Detecting C compile features
+[1.031s] -- Detecting C compile features - done
+[1.033s] -- Detecting CXX compiler ABI info
+[1.128s] -- Detecting CXX compiler ABI info - done
+[1.136s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.136s] -- Detecting CXX compile features
+[1.136s] -- Detecting CXX compile features - done
+[1.160s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.167s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.719s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.781s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.831s] -- Found rcpputils: 2.4.6 (/opt/ros/humble/share/rcpputils/cmake)
+[1.842s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.884s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.893s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.904s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.917s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.988s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.992s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.015s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.029s] -- Looking for pthread.h
+[2.105s] -- Looking for pthread.h - found
+[2.105s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.196s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.198s] -- Found Threads: TRUE  
+[2.254s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[2.258s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[2.303s] -- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)
+[2.311s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.324s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.325s] -- Found OGRE
+[2.325s] --   static     : OFF
+[2.325s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.325s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.325s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.325s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.325s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.325s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.325s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.325s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.325s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.325s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.325s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.343s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.347s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.474s] -- Found X11: /usr/include   
+[2.474s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.581s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.582s] -- Looking for gethostbyname
+[2.678s] -- Looking for gethostbyname - found
+[2.679s] -- Looking for connect
+[2.785s] -- Looking for connect - found
+[2.786s] -- Looking for remove
+[2.934s] -- Looking for remove - found
+[2.934s] -- Looking for shmat
+[3.025s] -- Looking for shmat - found
+[3.025s] -- Looking for IceConnectionNumber in ICE
+[3.106s] -- Looking for IceConnectionNumber in ICE - found
+[3.243s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.316s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.316s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.461s] -- Found rviz_default_plugins: 11.2.25 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[3.560s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[3.588s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.723s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.725s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.725s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/CogniScope/src/vision_msgs_rviz_plugins-humble/include>
+[3.725s] -- Configured cppcheck exclude dirs and/or files: 
+[3.727s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.727s] -- Configured cpplint exclude dirs and/or files: 
+[3.728s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.729s] -- Added test 'lint_cmake' to check CMake code style
+[3.730s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.731s] -- Added test 'uncrustify' to check C / C++ code style
+[3.731s] -- Configured uncrustify additional arguments: 
+[3.733s] -- Added test 'xmllint' to check XML markup files
+[3.735s] -- Configuring done
+[3.846s] -- Generating done
+[3.851s] -- Build files have been written to: /workspace/CogniScope/build/vision_msgs_rviz_plugins
+[3.865s] Invoked command in '/workspace/CogniScope/build/vision_msgs_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake /workspace/CogniScope/src/vision_msgs_rviz_plugins-humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/CogniScope/install/vision_msgs_rviz_plugins
+[3.866s] Invoking command in '/workspace/CogniScope/build/vision_msgs_rviz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/CogniScope/build/vision_msgs_rviz_plugins -- -j112 -l112
+[3.921s] [  6%] [34m[1mAutomatic MOC for target vision_msgs_rviz_plugins[0m
+[3.950s] [  6%] Built target vision_msgs_rviz_plugins_autogen
+[3.963s] [ 13%] [34m[1mGenerating include/vision_msgs_rviz_plugins/moc_detection_3d_array.cpp[0m
+[3.964s] [ 20%] [34m[1mGenerating include/vision_msgs_rviz_plugins/moc_bounding_box_3d_array.cpp[0m
+[3.964s] [ 26%] [34m[1mGenerating include/vision_msgs_rviz_plugins/moc_bounding_box_3d.cpp[0m
+[3.965s] [ 33%] [34m[1mGenerating include/vision_msgs_rviz_plugins/moc_detection_3d.cpp[0m
+[3.991s] [ 40%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/include/vision_msgs_rviz_plugins/moc_detection_3d_array.cpp.o[0m
+[3.991s] [ 46%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/include/vision_msgs_rviz_plugins/moc_detection_3d.cpp.o[0m
+[3.992s] [ 53%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/include/vision_msgs_rviz_plugins/moc_bounding_box_3d.cpp.o[0m
+[3.992s] [ 66%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/src/detection_3d_array.cpp.o[0m
+[3.992s] [ 66%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/vision_msgs_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[3.994s] [ 73%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/include/vision_msgs_rviz_plugins/moc_bounding_box_3d_array.cpp.o[0m
+[3.994s] [ 80%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/src/detection_3d.cpp.o[0m
+[3.994s] [ 86%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/src/bounding_box_3d.cpp.o[0m
+[3.994s] [ 93%] [32mBuilding CXX object CMakeFiles/vision_msgs_rviz_plugins.dir/src/bounding_box_3d_array.cpp.o[0m
+[13.657s] [100%] [32m[1mLinking CXX shared library libvision_msgs_rviz_plugins.so[0m
+[16.234s] [100%] Built target vision_msgs_rviz_plugins
+[16.248s] Invoked command in '/workspace/CogniScope/build/vision_msgs_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --build /workspace/CogniScope/build/vision_msgs_rviz_plugins -- -j112 -l112
+[16.250s] Invoking command in '/workspace/CogniScope/build/vision_msgs_rviz_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/CogniScope/build/vision_msgs_rviz_plugins
+[16.257s] -- Install configuration: ""
+[16.257s] -- Execute custom install script
+[16.258s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins//plugins_description.xml
+[16.268s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/library_path.sh
+[16.274s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/library_path.dsv
+[16.282s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/bounding_box_3d.hpp
+[16.288s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/bounding_box_3d_array.hpp
+[16.295s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/bounding_box_3d_common.hpp
+[16.301s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/detection_3d.hpp
+[16.309s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/detection_3d_array.hpp
+[16.315s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/detection_3d_common.hpp
+[16.324s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/include/vision_msgs_rviz_plugins/vision_msgs_rviz_plugins/visibility_control.hpp
+[16.330s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/launch/test_all.launch.py
+[16.339s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/conf/conf.rviz
+[16.344s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/conf/example.yaml
+[16.350s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons/classes/BoundingBox3D.png
+[16.356s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons/classes/BoundingBox3DArray.png
+[16.361s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons/classes/Detection3D.png
+[16.370s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/icons/classes/Detection3DArray.png
+[16.377s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/lib/vision_msgs_rviz_plugins/Detection3DArray.py
+[16.384s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/lib/vision_msgs_rviz_plugins/Detection3D.py
+[16.390s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/lib/vision_msgs_rviz_plugins/BoundingBox3D.py
+[16.398s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/lib/vision_msgs_rviz_plugins/BoundingBox3DArray.py
+[16.404s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/vision_msgs_rviz_plugins
+[16.412s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/vision_msgs_rviz_plugins
+[16.417s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/ament_prefix_path.sh
+[16.425s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/ament_prefix_path.dsv
+[16.430s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/path.sh
+[16.439s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/environment/path.dsv
+[16.445s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/local_setup.bash
+[16.450s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/local_setup.sh
+[16.459s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/local_setup.zsh
+[16.465s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/local_setup.dsv
+[16.471s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.dsv
+[16.476s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/ament_index/resource_index/packages/vision_msgs_rviz_plugins
+[16.482s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/vision_msgs_rviz_plugins
+[16.488s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.494s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[16.501s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.509s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsConfig.cmake
+[16.515s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsConfig-version.cmake
+[16.523s] -- Symlinking: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/package.xml
+[16.529s] -- Installing: /workspace/CogniScope/install/vision_msgs_rviz_plugins/lib/libvision_msgs_rviz_plugins.so
+[16.544s] -- Set runtime path of "/workspace/CogniScope/install/vision_msgs_rviz_plugins/lib/libvision_msgs_rviz_plugins.so" to ""
+[16.544s] -- Installing: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsExport.cmake
+[16.544s] -- Installing: /workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsExport-noconfig.cmake
+[16.547s] Invoked command in '/workspace/CogniScope/build/vision_msgs_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/CogniScope/install/see_beyond_ros2:/workspace/CogniScope/install/pcdet_ros2:/workspace/CogniScope/install/fusiondet:/workspace/CogniScope/install/fusion_tracker:/opt/ros/humble /usr/bin/cmake --install /workspace/CogniScope/build/vision_msgs_rviz_plugins

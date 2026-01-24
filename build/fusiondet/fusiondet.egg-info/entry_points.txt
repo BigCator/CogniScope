@@ -1,0 +1,6 @@
+[console_scripts]
+fusiondet = fusiondet.test:main
+fusiondet1 = fusiondet.mstdet:main
+test = fusiondet.test1:main
+test2 = fusiondet.test_carla:main
+

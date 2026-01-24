@@ -1,0 +1,10 @@
+uint16      statusFlags
+uint16      errorCode
+uint8       profIndex
+uint8       reserved0
+uint16      reserved1
+uint16[12]  rxNoiseFigVal
+uint32      reserved2
+uint32      reserved3
+uint32      reserved4
+uint32      timeStamp

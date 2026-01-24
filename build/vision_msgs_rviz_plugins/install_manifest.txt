@@ -1,0 +1,3 @@
+/workspace/CogniScope/install/vision_msgs_rviz_plugins/lib/libvision_msgs_rviz_plugins.so
+/workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsExport.cmake
+/workspace/CogniScope/install/vision_msgs_rviz_plugins/share/vision_msgs_rviz_plugins/cmake/vision_msgs_rviz_pluginsExport-noconfig.cmake

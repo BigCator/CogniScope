@@ -1,0 +1,11 @@
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/uninstall.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/ros2_numpy_uninstall.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/ament_cmake_python_symlink_ros2_numpy.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/ament_cmake_python_build_ros2_numpy_egg.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/test.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/edit_cache.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/rebuild_cache.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/list_install_components.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/install.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/install/local.dir
+/workspace/CogniScope/build/ros2_numpy/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspace/CogniScope/build/imu5651_driver/imu5651_driver" "TARGETS" "imu5651_driver" "RUNTIME_DESTINATION" "lib/imu5651_driver" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

@@ -1,0 +1,1 @@
+/workspace/CogniScope/src/sensor_driver/src/rslidar_msg/msg/RslidarPacket.msg
