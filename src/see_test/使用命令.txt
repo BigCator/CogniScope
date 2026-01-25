@@ -58,9 +58,9 @@ python3 tools/eval_single_epoch.py \
 --pretrained_model /workspace/ros2_yolo/src/see_test/output/car_pedes/carla_initial/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth
 
 python3 tools/eval_single_epoch.py \
---cfg_file /home/dell/ljw/code/ros2_yolo/src/see_test/output/car_pedes/TransNeXt_0115/car_pedes.yaml \
---ckpt /home/dell/ljw/code/ros2_yolo/src/see_test/output/car_pedes/TransNeXt_0115/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth \
---pretrained_model /home/dell/ljw/code/ros2_yolo/src/see_test/output/car_pedes/TransNeXt_0115/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth
+--cfg_file /workspace/CogniScope/src/see_test/output/car_pedes/carla_initial/car_pedes.yaml \
+--ckpt /workspace/CogniScope/src/see_test/output/car_pedes/carla_initial/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth \
+--pretrained_model /workspace/CogniScope/src/see_test/output/car_pedes/carla_initial/eval/eval_with_train/best_eval/best_epoch_checkpoint.pth
 
 
 #pointnet2_3DSSD安装

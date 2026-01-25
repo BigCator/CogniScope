@@ -6,6 +6,7 @@ git add .
 
 # 2. 提交到本地仓库
 git commit -m "项目 v1 版本：上传所有代码和文档"
+git commit -m "上传src/OpenPCDet"
 
 # 3. 推送到远程 master 分支
 git push -u origin master

@@ -14,7 +14,7 @@ import tqdm
 import importlib.util
 import sys
 
-eval_utils_path = "/workspace/ros2_yolo/src/see_test/tools/eval_utils/eval_utils.py"
+eval_utils_path = "/workspace/CogniScope/src/see_test/tools/eval_utils/eval_utils.py"
 spec = importlib.util.spec_from_file_location("eval_utils", eval_utils_path)
 eval_utils = importlib.util.module_from_spec(spec)
 sys.modules["eval_utils"] = eval_utils
