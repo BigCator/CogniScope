@@ -1,1 +1,0 @@
-/workspace/CogniScope/src/sensor_driver/src/pointcloud_to_laserscan-foxy/launch/sample_pointcloud_to_laserscan_launch.py

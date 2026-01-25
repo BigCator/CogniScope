@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Downloads/customer_src_20230926/install
-
-Name: keyboard_ctrl
-Description: Description of keyboard_ctrl
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,2 +1,0 @@
-uint16 timingFailCode
-uint16 reserved

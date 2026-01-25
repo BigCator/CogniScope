@@ -1,4 +1,0 @@
-valid_flg_list: [1]  #0: invalid; 1: valid after filtered; 4: suspected noise; 5: suspected pcl with abnormal velocity; 6: suspected multipath; else: TBD.
-freq_check: [100,9.8] #udp data frequency check number and limit
-time_offset_s: 0  #time offset of radar timestamp when the ptp function is swtiched on, unit: s
-time_offset_ns: 0 #time offset of radar timestamp when the ptp function is swtiched on, unit: ns

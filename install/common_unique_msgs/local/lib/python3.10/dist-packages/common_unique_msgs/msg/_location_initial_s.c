@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/common_unique_msgs/rosidl_generator_py/common_unique_msgs/msg/_location_initial_s.c

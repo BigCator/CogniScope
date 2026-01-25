@@ -1,2 +1,0 @@
-rocon_devices/rocon_device_tools/rocon_iot_bridge:rocon_devices/rocon_device_tools/rocon_python_hue:rocon_devices/rocon_devices:rocon_devices/rocon_hue:rocon_devices/rocon_ninjablock_bridge:rocon_devices/rocon_rtsp_camera_relay:rocon_devices/rocon_smartthings_bridge
--DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/neousys/driver/360_camera/360_camera_ws/devel -DCMAKE_INSTALL_PREFIX=/home/neousys/driver/360_camera/360_camera_ws/install -G Unix Makefiles

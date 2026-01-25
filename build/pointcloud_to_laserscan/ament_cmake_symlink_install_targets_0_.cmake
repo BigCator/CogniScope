@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/workspace/CogniScope/build/pointcloud_to_laserscan/laserscan_to_occupancy_grid" "TARGETS" "laserscan_to_occupancy_grid" "DESTINATION" "lib/pointcloud_to_laserscan")

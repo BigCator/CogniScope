@@ -1,2 +1,0 @@
-gps_msg:rslidar_sdk-main
--DCATKIN_DEVEL_PREFIX=/home/neousys/driver/m1/rslidar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/neousys/driver/m1/rslidar_ws/install -G Unix Makefiles

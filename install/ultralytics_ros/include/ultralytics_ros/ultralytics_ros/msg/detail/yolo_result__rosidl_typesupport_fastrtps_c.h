@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/ultralytics_ros/rosidl_typesupport_fastrtps_c/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_fastrtps_c.h

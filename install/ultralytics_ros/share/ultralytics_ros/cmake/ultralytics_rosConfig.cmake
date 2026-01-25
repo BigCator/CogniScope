@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/ultralytics_ros/ament_cmake_core/ultralytics_rosConfig.cmake

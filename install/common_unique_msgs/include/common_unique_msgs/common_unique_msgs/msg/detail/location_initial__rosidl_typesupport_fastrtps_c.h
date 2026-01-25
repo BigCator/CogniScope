@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/common_unique_msgs/rosidl_typesupport_fastrtps_c/common_unique_msgs/msg/detail/location_initial__rosidl_typesupport_fastrtps_c.h

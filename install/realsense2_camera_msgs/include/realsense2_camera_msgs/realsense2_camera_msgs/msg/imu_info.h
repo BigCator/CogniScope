@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/realsense2_camera_msgs/rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h

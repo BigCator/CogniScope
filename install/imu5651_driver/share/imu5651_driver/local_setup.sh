@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/imu5651_driver/ament_cmake_environment_hooks/local_setup.sh

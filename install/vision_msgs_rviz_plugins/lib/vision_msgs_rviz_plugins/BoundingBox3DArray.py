@@ -1,1 +1,0 @@
-/workspace/CogniScope/src/vision_msgs_rviz_plugins-humble/samples/BoundingBox3DArray.py

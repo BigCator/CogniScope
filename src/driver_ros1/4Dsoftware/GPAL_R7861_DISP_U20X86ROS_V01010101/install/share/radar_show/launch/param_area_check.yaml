@@ -1,2 +1,0 @@
-area_freq_check: 50 #udp data frequency check: frame number to be checked
-area_limit: [50.0, 300.0, -10.0, 10.0] #area boundary of lower limit x, upper limit x, lower limit y and upper limit y 

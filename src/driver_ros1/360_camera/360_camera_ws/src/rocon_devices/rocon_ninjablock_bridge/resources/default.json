@@ -1,0 +1,8 @@
+{
+  "api": "",
+  "access_token":"",
+  "type_table":{
+    "device_type_1" : ["device1"],
+    "device_type_2" : ["device2", "device22"]
+  }
+}

@@ -1,0 +1,10 @@
+pcdet:
+  ros__parameters:
+    config_file: "cfgs/nuscenes_models/cbgs_second_multihead.yaml"
+    model_file: "checkpoints/cbgs_second_multihead_nds6229_updated.pth"
+    allow_memory_fractioning: False
+    allow_score_thresholding: True
+    num_features: 5
+    device_id: 0
+    device_memory_fraction: 6.0
+    threshold_array: [0.7, 0.7, 0.7, 0.7, 0.6, 0.6, 0.4, 0.4, 0.35, 0.6]

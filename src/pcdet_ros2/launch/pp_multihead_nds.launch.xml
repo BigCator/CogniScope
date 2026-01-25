@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="params_file" default="$(find-pkg-share pcdet_ros2)/config/pp_multihead_nds.param.yaml"/>
+
+    <include file="$(find-pkg-share pcdet_ros2)/launch/pcdet.launch.py">
+        <arg name="params_file" value="$(var params_file)" />
+    </include>
+</launch>

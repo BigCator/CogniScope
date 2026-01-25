@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/ros2_numpy/ament_cmake_python/ros2_numpy/ros2_numpy.egg-info/SOURCES.txt

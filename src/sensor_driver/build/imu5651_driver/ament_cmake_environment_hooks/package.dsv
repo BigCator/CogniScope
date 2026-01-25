@@ -1,4 +1,0 @@
-source;share/imu5651_driver/local_setup.bash
-source;share/imu5651_driver/local_setup.dsv
-source;share/imu5651_driver/local_setup.sh
-source;share/imu5651_driver/local_setup.zsh

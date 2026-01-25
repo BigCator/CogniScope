@@ -1,5 +1,0 @@
-/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/UniHeader.idl
-/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/Location.idl
-/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/LocationInitial.idl
-/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/CustomGNSS.idl
-/workspace/ros2_yolo/src/sensor_driver/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/CustomIMU.idl

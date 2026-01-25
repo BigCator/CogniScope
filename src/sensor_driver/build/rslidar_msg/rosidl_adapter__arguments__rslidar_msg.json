@@ -1,6 +1,0 @@
-{
-  "package_name": "rslidar_msg",
-  "non_idl_tuples": [
-    "/workspace/ros2_yolo/src/sensor_driver/src/rslidar_msg:msg/RslidarPacket.msg"
-  ]
-}

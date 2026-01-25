@@ -1,5 +1,0 @@
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/IMUInfo.idl
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Extrinsics.idl
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Metadata.idl
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/RGBD.idl
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/DeviceInfo.idl

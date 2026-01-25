@@ -1,0 +1,24 @@
+<launch>
+    <arg name="image_view" default="false" />
+
+    <!-- Camera 1 -->
+    <node name="usb_cam1" pkg="usb_cam" type="usb_cam_node" output="screen" >
+        <rosparam command="load" file="$(find usb_cam)/config/usb_cam1.yml"/>
+    </node>
+    <node if="$(arg image_view)" name="image_view1" pkg="image_view" type="image_view"
+          respawn="false" output="screen">
+        <remap from="image" to="/usb_cam1/image_raw"/>
+        <param name="autosize" value="true" />
+    </node>
+
+    <!-- Camera 2 -->
+    <node name="usb_cam2" pkg="usb_cam" type="usb_cam_node" output="screen" >
+        <rosparam command="load" file="$(find usb_cam)/config/usb_cam2.yml"/>
+    </node>
+    <node if="$(arg image_view)" name="image_view2" pkg="image_view" type="image_view"
+          respawn="false" output="screen">
+        <remap from="image" to="/usb_cam2/image_raw"/>
+        <param name="autosize" value="true" />
+    </node>
+</launch>
+

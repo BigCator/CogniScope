@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/common_unique_msgs/ament_cmake_environment_hooks/local_setup.sh

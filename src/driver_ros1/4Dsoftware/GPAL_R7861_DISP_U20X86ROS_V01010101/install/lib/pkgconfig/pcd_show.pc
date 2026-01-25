@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Downloads/customer_src_20230926/install
-
-Name: pcd_show
-Description: Description of pcd_show
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

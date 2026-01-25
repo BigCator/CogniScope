@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Downloads/customer_src_20230926/install
-
-Name: pcd_output
-Description: Description of pcd_output
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

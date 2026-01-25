@@ -1,6 +1,0 @@
-{
-  "package_name": "ultralytics_ros",
-  "non_idl_tuples": [
-    "/workspace/CogniScope/src/ultralytics_ros:msg/YoloResult.msg"
-  ]
-}

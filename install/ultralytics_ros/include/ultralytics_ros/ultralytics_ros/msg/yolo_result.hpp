@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/ultralytics_ros/rosidl_generator_cpp/ultralytics_ros/msg/yolo_result.hpp

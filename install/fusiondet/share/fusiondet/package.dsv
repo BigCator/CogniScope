@@ -1,9 +1,0 @@
-source;share/fusiondet/hook/pythonpath.ps1
-source;share/fusiondet/hook/pythonpath.dsv
-source;share/fusiondet/hook/pythonpath.sh
-source;share/fusiondet/hook/ament_prefix_path.ps1
-source;share/fusiondet/hook/ament_prefix_path.dsv
-source;share/fusiondet/hook/ament_prefix_path.sh
-source;../../build/fusiondet/share/fusiondet/hook/pythonpath_develop.ps1
-source;../../build/fusiondet/share/fusiondet/hook/pythonpath_develop.dsv
-source;../../build/fusiondet/share/fusiondet/hook/pythonpath_develop.sh

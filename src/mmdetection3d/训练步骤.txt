@@ -1,0 +1,66 @@
+2.激活环境
+conda activate mmdet3d100
+
+3.进入项目目录
+cd ~/桌面/fusion_det_ws/mmdetection3d-dev-1.0
+
+4.将源数据文件夹软链接到项目目录data下，DATA_NAME是数据文件夹的名字
+ln -s ~/桌面/11月进度/20251027融合检测数据/zhenshi ./data/zhenshi
+
+5.数据预处理,生成训练读取的pkl文件
+/usr/bin/python3.10 tools/create_data.py kitti --root-path ./data/618_data --out-dir ./data/618_data --extra-tag kitti
+python tools/create_data.py kitti --root-path ./data/zhenshi --out-dir ./data/zhenshi --extra-tag kitti
+
+6.训练，第一个参数是调用的配置文件，第二个参数指定输出目录,注意在源代码修改训练路径和配置文件
+python tools/train.py 
+--cfg-options load_from=/home/dell/ljw/code/ros2_yolo/src/mmdetection3d/work-dir/my_pretrain.pth
+训练前，注意修改配置文件的数据集根路径，换成自己数据集的名字（/mvxnet/dv_mvx-fpn_second_secfpn_adamw_2x8_40e_kitti-3d-3class.py）136行
+data_root = 'data/DATA_NAME/'
+val_evaluator = dict(
+    type='KittiMetric', ann_file='data/618_data/kitti_infos_val.pkl')
+注意修改训练路径 tools/train.py  36行中的--work-dir ./work-dir/train_21251202/ 
+
+可视化
+python demo/multi_modality_demo.py demo/data/kitti/kitti_000010.bin demo/data/kitti/kitti_000010.png demo/data/kitti/kitti_000010_infos.pkl configs/mvxnet/dv_mvx-fpn_second_secfpn_adamw_2x8_40e_kitti-3d-3class.py checkpoints/dv_mvx-fpn_second_secfpn_adamw_2x8_80e_kitti-3d-3class_20210831_060805-83442923.pth --out-dir /home/neousys/桌面/fusion_det_ws/mmdetection3d-dev-1.0/demo --show
+
+/home/neousys/桌面/fusion_det_ws/mmdetection3d-dev-1.0/data/kitti/training/image_2/000000.png
+
+python demo/multi_modality_demo.py data/kitti/training/velodyne/000000.bin data/kitti/training/image_2/000000.png data/kitti/training/pkl/kitti_000000_infos.pkl configs/mvxnet/dv_mvx-fpn_second_secfpn_adamw_2x8_40e_kitti-3d-3class.py checkpoints/dv_mvx-fpn_second_secfpn_adamw_2x8_80e_kitti-3d-3class_20210831_060805-83442923.pth --out-dir /home/neousys/桌面/fusion_det_ws/mmdetection3d-dev-1.0/demo --show
+
+python demo/multi_modality_demo.py /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/data/zhenshi/training/velodyne/000001.bin \
+/home/dell/ljw/code/ros2_yolo/src/mmdetection3d/data/zhenshi/training/image_2/000001.png \
+ /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/data/zhenshi/training/pkl/kitti_000001_infos.pkl \
+ /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/configs/mvxnet/mvxnet.py \
+ /home/dell/ljw/code/ros2_yolo/src/fusion_tracker/models/mvxnet_fpn_dv_second_secfpn_8xb2-80e_kitti-3d-3class-8963258a.pth \
+ --out-dir /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo --show
+
+python demo/multi_modality_demo.py /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo/data/kitti/000008.bin \
+/home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo/data/kitti/000008.png \
+/home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo/data/kitti/000008.pkl \
+ /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/configs/mvxnet/mvxnet.py \
+ /home/dell/ljw/code/ros2_yolo/src/fusion_tracker/models/mvxnet_fpn_dv_second_secfpn_8xb2-80e_kitti-3d-3class-8963258a.pth \
+ --out-dir /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo --show
+
+xvfb-run -s "-screen 0 1024x768x24" python demo/multi_modality_demo.py /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo/data/kitti/000008.bin \
+/home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo/data/kitti/000008.png \
+/home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo/data/kitti/000008.pkl \
+ /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/configs/mvxnet/mvxnet.py \
+ /home/dell/ljw/code/ros2_yolo/src/fusion_tracker/models/mvxnet_fpn_dv_second_secfpn_8xb2-80e_kitti-3d-3class-8963258a.pth \
+ --out-dir /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo --show
+
+
+生成序列文件
+python -c "for i in range(0, 5000): print(f'{i:06d}')" > kitti_indices.txt
+
+python tools/train.py \
+    --config /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/configs/mvxnet/mvxnet.py \
+    --work-dir /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/work-dir/train_zs_260112 \
+    --cfg-options load_from=/home/dell/ljw/code/ros2_yolo/src/fusiondet/fusiondet/models/fz_epoch_80.pth
+
+/usr/bin/python3.10 demo/multi_modality_demo.py /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo/data/618_data/000054.bin \
+/home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo/data/618_data/000054.png \
+/home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo/data/618_data/kitti_000054_infos.pkl \
+ /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/configs/mvxnet/mvxnet.py \
+ /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/work-dir/train_zs_260112/epoch_5.pth \
+ --out-dir /home/dell/ljw/code/ros2_yolo/src/mmdetection3d/demo --show
+

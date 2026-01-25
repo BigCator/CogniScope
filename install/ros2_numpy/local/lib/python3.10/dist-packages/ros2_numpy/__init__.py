@@ -1,1 +1,0 @@
-/workspace/CogniScope/src/ros2_numpy/ros2_numpy/__init__.py

@@ -1,8 +1,0 @@
-prefix=/home/ubuntu/Downloads/customer_src_20230926/install
-
-Name: receive_udp
-Description: Description of receive_udp
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

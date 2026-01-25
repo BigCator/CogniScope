@@ -1,9 +1,0 @@
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description/CMakeFiles/uninstall.dir
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description/CMakeFiles/realsense2_description_uninstall.dir
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description/CMakeFiles/test.dir
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description/CMakeFiles/edit_cache.dir
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description/CMakeFiles/rebuild_cache.dir
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description/CMakeFiles/list_install_components.dir
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description/CMakeFiles/install.dir
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description/CMakeFiles/install/local.dir
-/workspace/ros2_yolo/src/sensor_driver/build/realsense2_description/CMakeFiles/install/strip.dir

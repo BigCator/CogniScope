@@ -1,0 +1,26 @@
+1# 创建 Conda 虚拟环境  
+conda create -n sustechpoints python=3.8 -y
+conda activate sustechpoints  
+4.# 拉取源码  
+git clone https://github.com/naurril/SUSTechPOINTS
+6.# 安装依赖  
+cd SUSTechPOINTS  
+pip install -r requirement.txt
+9.# 下载模型  
+wget https://github.com/naurril/SUSTechPOINTS/releases/download/0.1/deep_annotation_inference.h5  -P algos/models
+
+11.# 启动服务  
+cd /workspace/ros2_yolo/tools/SUSTechPOINTS/
+conda activate sustechpoints
+python main.py
+13.# 运行后，在浏览器中访问 http://127.0.0.1:8081 即可使用
+ http://127.0.0.1:8081
+
+
+ #激光和雷达融合训练数据处理
+ python /home/dell/ljw/code/ros2_yolo/tools/SUSTechPOINTS/tools/lai/ros2bag2date.py
+ python /home/dell/ljw/code/ros2_yolo/tools/SUSTechPOINTS/tools/lai/data_show.py
+ python /home/dell/ljw/code/ros2_yolo/tools/SUSTechPOINTS/tools/lai/data2kitti.py
+
+ #激光和雷达融合训练数据处理
+ 

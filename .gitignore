@@ -1,34 +1,75 @@
-# 模型权重
+################################
+# 1. Common
+################################
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+################################
+# 2. IDE / Editor
+################################
+.vscode/
+.idea/
+*.swp
+
+################################
+# 3. Python / Deep Learning
+################################
 *.pth
 *.pt
 *.ckpt
 *.onnx
-*.tar
-*.gz
-*.pth
-*.zip
+*.engine
+*.trt
 
-# 数据集
-/data
-/rosbag2
-/datasets/
+################################
+# 4. Dataset & Training Artifacts
+################################
+**/data/
+**/datasets/
+**/rosbag2/
 **/training/
 **/testing/
-
-# rosbag
 *.db3
 rosbag2_*/
 
-
-# 输出与日志
+################################
+# 5. Training Output / Logs
+################################
 output/
 outputs/
 logs/
+work-dir/
+vis_data/
+last_checkpoint
+
+################################
+# 6. ROS2
+################################
+build/
 install/
+log/
 
+################################
+# 7. C++ / CUDA build artifacts
+################################
+*.so
+*.a
+*.o
+*.out
+cmake-build-*/
 
-# Python
-__pycache__/
-*.pyc
+################################
+# 8. Docker / Large Archives
+################################
+*.tar
+*.gz
+*.zip
 
-
+################################
+# 9. Temporary
+################################
+tmp/
+temp/

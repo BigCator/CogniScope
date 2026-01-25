@@ -1,2 +1,0 @@
-usb_cam
--DCATKIN_DEVEL_PREFIX=/home/neousys/driver/ws_infrared_usb_cam/devel -DCMAKE_INSTALL_PREFIX=/home/neousys/driver/ws_infrared_usb_cam/install -G Unix Makefiles

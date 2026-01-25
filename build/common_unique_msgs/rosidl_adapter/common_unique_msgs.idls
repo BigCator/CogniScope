@@ -1,5 +1,0 @@
-/workspace/CogniScope/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/UniHeader.idl
-/workspace/CogniScope/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/Location.idl
-/workspace/CogniScope/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/LocationInitial.idl
-/workspace/CogniScope/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/CustomGNSS.idl
-/workspace/CogniScope/build/common_unique_msgs/rosidl_adapter/common_unique_msgs:msg/CustomIMU.idl

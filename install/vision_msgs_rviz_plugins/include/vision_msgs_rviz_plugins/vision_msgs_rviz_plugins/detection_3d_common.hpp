@@ -1,1 +1,0 @@
-/workspace/CogniScope/src/vision_msgs_rviz_plugins-humble/include/vision_msgs_rviz_plugins/detection_3d_common.hpp

@@ -1,1 +1,0 @@
-/workspace/CogniScope/src/vision_msgs_rviz_plugins-humble/launch/test_all.launch.py

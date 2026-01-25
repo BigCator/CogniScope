@@ -1,8 +1,0 @@
-prefix=/home/neousys/driver/m1/rslidar_ws/install
-
-Name: gps_messages
-Description: Description of gps_messages
-Version: 1.5.16
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: sensor_msgs roslib std_msgs message_runtime

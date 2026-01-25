@@ -1,0 +1,10 @@
+pcdet:
+  ros__parameters:
+    config_file: "cfgs/kitti_models/PartA2_free.yaml"
+    model_file: "checkpoints/PartA2_free_7872.pth"
+    allow_memory_fractioning: False
+    allow_score_thresholding: True
+    num_features: 4
+    device_id: 0
+    device_memory_fraction: 6.0
+    threshold_array: [0.7, 0.35, 0.5] # [Car, Pedestrian, Bicycle]

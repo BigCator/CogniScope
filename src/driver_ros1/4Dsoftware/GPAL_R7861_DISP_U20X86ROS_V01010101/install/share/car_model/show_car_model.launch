@@ -1,8 +1,0 @@
-<launch>
-  <node pkg="car_model" type="show_car_model.py" name="show_car_model" output="screen" >
-  </node>
-
-  <node pkg="tf" type="static_transform_publisher" name="corridnate_car_model" args="1.22 0.0 0.0 3.14159 0.0 0.0 car car_model 1000" />
-
-
-</launch>

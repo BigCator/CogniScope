@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/ultralytics_ros/rosidl_typesupport_introspection_cpp/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_introspection_cpp.hpp

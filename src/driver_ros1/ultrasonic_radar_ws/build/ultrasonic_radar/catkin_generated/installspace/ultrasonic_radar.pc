@@ -1,8 +1,0 @@
-prefix=/home/neousys/driver/ultrasonic_radar_ws/install
-
-Name: ultrasonic_radar
-Description: Description of ultrasonic_radar
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib -lultrasonic_radar
-Requires: roscpp std_msgs sensor_msgs

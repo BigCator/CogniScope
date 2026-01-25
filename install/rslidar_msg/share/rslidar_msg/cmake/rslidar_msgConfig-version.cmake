@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/rslidar_msg/ament_cmake_core/rslidar_msgConfig-version.cmake

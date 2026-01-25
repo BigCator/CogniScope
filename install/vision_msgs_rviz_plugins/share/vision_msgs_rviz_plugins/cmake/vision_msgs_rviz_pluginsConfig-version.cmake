@@ -1,1 +1,0 @@
-/workspace/CogniScope/build/vision_msgs_rviz_plugins/ament_cmake_core/vision_msgs_rviz_pluginsConfig-version.cmake

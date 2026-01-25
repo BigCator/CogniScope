@@ -1,1 +1,0 @@
-/workspace/CogniScope/src/sensor_driver/src/pointcloud_to_laserscan-foxy/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp

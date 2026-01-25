@@ -1,1 +1,0 @@
-/workspace/CogniScope/src/see_beyond_ros2/launch/see_beyond_ros2.launch.py
