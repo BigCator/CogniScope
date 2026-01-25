@@ -1,0 +1,10 @@
+# ninja log v5
+3	4049	1751517150332156813	/home/dell/xzx_ws/see_new/pcdet/ops/pointnet2/pointnet2_3DSSD/build/temp.linux-x86_64-cpython-37/src/sampling.o	8d38d2caf98b64e2
+2	4052	1751517150332156813	/home/dell/xzx_ws/see_new/pcdet/ops/pointnet2/pointnet2_3DSSD/build/temp.linux-x86_64-cpython-37/src/interpolate.o	bd9552ff6389252d
+1	4115	1751517150396156684	/home/dell/xzx_ws/see_new/pcdet/ops/pointnet2/pointnet2_3DSSD/build/temp.linux-x86_64-cpython-37/src/group_points.o	f900a14b1c49e56e
+0	4416	1751517150696156078	/home/dell/xzx_ws/see_new/pcdet/ops/pointnet2/pointnet2_3DSSD/build/temp.linux-x86_64-cpython-37/src/ball_query.o	873f6c30f36cac2b
+3	10511	1751517156792143750	/home/dell/xzx_ws/see_new/pcdet/ops/pointnet2/pointnet2_3DSSD/build/temp.linux-x86_64-cpython-37/src/interpolate_gpu.o	ebb7686cd6a623d3
+1	10518	1751517156796143743	/home/dell/xzx_ws/see_new/pcdet/ops/pointnet2/pointnet2_3DSSD/build/temp.linux-x86_64-cpython-37/src/ball_query_gpu.o	d75a4e2a5f12e091
+2	10632	1751517156908143515	/home/dell/xzx_ws/see_new/pcdet/ops/pointnet2/pointnet2_3DSSD/build/temp.linux-x86_64-cpython-37/src/group_points_gpu.o	9cb6e73c233be7ce
+4	11196	1751517157472142374	/home/dell/xzx_ws/see_new/pcdet/ops/pointnet2/pointnet2_3DSSD/build/temp.linux-x86_64-cpython-37/src/sampling_gpu.o	bd7c1f4bd0fb4796
+3	13980	1751517160252136748	/home/dell/xzx_ws/see_new/pcdet/ops/pointnet2/pointnet2_3DSSD/build/temp.linux-x86_64-cpython-37/src/pointnet2_api.o	484628a2fa51234b
