@@ -30,7 +30,7 @@ git status
 git add src/pcdet_ros2
 git add src/ros2_numpy
 git add train.py
-git commit -m "添加 ROS2 模块和训练脚本"
+git commit -m "修复有的代码未上传问题"
 git push origin master
 
 git submodule status
