@@ -20,3 +20,17 @@ echo "✅ 已完成：代码推送到 master 并打上 v1 标签"
 
 #强制推送（⚠️ 慎用）
 git push -f origin master
+
+git filter-repo --strip-blobs-bigger-than 100M --force
+git remote add origin git@github.com:BigCator/CogniScope.git
+git remote -v
+git push -u origin master --force
+git status
+
+git add src/pcdet_ros2
+git add src/ros2_numpy
+git add train.py
+git commit -m "添加 ROS2 模块和训练脚本"
+git push origin master
+
+git submodule status
