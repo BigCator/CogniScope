@@ -3,14 +3,17 @@
 *.pt
 *.ckpt
 *.onnx
-
+*.tar
+*.gz
+*.pth
+*.zip
 
 # 数据集
-/data/
+/data
+/rosbag2
 /datasets/
 **/training/
 **/testing/
-
 
 # rosbag
 *.db3
@@ -21,7 +24,7 @@ rosbag2_*/
 output/
 outputs/
 logs/
-results/
+install/
 
 
 # Python
@@ -29,10 +32,3 @@ __pycache__/
 *.pyc
 
 
-# Docker
-docker_images/
-*.tar
-*.gz
-*.pt
-*.pth
-*.zip
