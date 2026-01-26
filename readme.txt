@@ -42,17 +42,6 @@ CogniScope/                     # 项目根目录
 ├── README.md                   # 项目说明文档
 └── .gitignore                  # Git 忽略规则
 
-###常用指令###
-ls -l 文件名 #查看软链接
-du -sh directory #查看整个目录大小
-
-#查看函数来源路径
-import inspect 
-print(eval_utils.__file__) # 打印实际导入的文件路径 
-print(inspect.signature(eval_utils.eval_one_epoch)) # 打印函数签名
-
-###常用指令###
-
 1.底层支撑环境，
 docker容器、ros2humble安装、pcd框架安装，mmdetection3d安装，ultralytics安装
 1.1docker容器
@@ -131,7 +120,7 @@ translation
 
 #方案1
 # 保存镜像为 tar 文件
-docker save -o my_image.tar my_image:latest
+docker save -o cogniscope_v1.tar cogniscope:v1
 # 压缩成 gz 文件
 gzip my_image.tar
 # 恢复镜像
@@ -139,14 +128,14 @@ docker load -i my_image.tar
 
 #方案2
 # 导出正在运行的容器
-docker export -o my_container.tar my_container_id
+docker export -o cogniscope_v1.tar my_container_id
 # 压缩gz 文件
 gzip my_container.tar
 # 恢复容器
 docker import my_container.tar my_image:latest
 
 #保存容器变化
-docker commit ros2_yolo my_ros2_yolo:latest
+docker commit cogniscope_v1 cogniscope:v1
 
 2.传感器驱动
 相机（已验证）、激光雷达、4dmm波雷达、红外相机、imu、gnss驱动安装完成 地址：/workspace/ros2_yolo/src/sensor_driver
@@ -183,7 +172,8 @@ matlab软件标定
 
 #编译指令
 colcon build --symlink-install --packages-select fusiondet
-
+#播放数据包
+ros2 bag play /workspace/CogniScope/src/ultralytics_ros/ros2bag/kitti_2011_09_26_drive_0106_synced --clock --loop
 #代码运行
 ros2 run fusiondet test
 ros2 run fusiondet fusiondet
@@ -267,3 +257,16 @@ touch multispectral-object-detection-main/COLCON_IGNORE
 touch multispectral-object-detection-main-prune/COLCON_IGNORE
 touch OpenPCDet/COLCON_IGNORE
 touch see_test/COLCON_IGNORE
+
+#大文件压缩
+tar -cvf - your_folder | zstd -19 -o your_folder.tar.zst
+tar --use-compress-program=zstd -xvf your_folder.tar.zst
+
+ls -l 文件名 #查看软链接
+du -sh directory #查看整个目录大小
+
+#查看函数来源路径
+import inspect 
+print(eval_utils.__file__) # 打印实际导入的文件路径 
+print(inspect.signature(eval_utils.eval_one_epoch)) # 打印函数签名
+

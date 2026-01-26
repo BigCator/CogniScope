@@ -31,7 +31,7 @@ git status
 git add src/pcdet_ros2
 git add src/ros2_numpy
 git add train.py
-git commit -m "修复有的代码未上传问题"
+git commit -m "修复README.md链接问题"
 git push origin master
 
 git submodule status
@@ -39,4 +39,7 @@ git submodule status
 git rm --cached src/OpenPCDet # 从 Git index 中删除 submodule 记录
 git rm --cached src/mmdetection3d src/pcdet_ros2 src/ros2_numpy src/AB3DMOT-master/AB3DMOT_libs
 git push
+
+
+
 
