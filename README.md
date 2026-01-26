@@ -143,6 +143,50 @@ CogniScope/                     # 项目根目录
 
 ---
 
+
+## 🚀 如何开始（Getting Started）
+
+为了降低环境配置成本，CogniScope 提供了 **已配置完成的 Docker 镜像**，可直接拉取使用。
+
+### 1️⃣ 拉取镜像（推荐）
+
+```bash
+docker pull ghcr.io/bigcator/cogniscope:v1
+```
+该镜像已包含：
+
+- CUDA + GPU 运行环境
+
+- ROS 2 Humble
+
+- PyTorch / OpenPCDet / MMDetection3D / Ultralytics
+
+- CogniScope 所需核心依赖
+
+---
+
+### 2️⃣ 启动容器示例
+```bash
+docker run --gpus all --shm-size=32g -it \
+  --name cogniscope_dev \
+  -v /home:/home \
+  -v $(pwd):/workspace/CogniScope \
+  --ipc host \
+  --network host \
+  --privileged \
+  ghcr.io/bigcator/cogniscope:v1 \
+  /bin/bash
+```
+---
+
+### 3️⃣ 详细使用说明
+
+完整的环境说明、ROS2 工作空间构建方式、模块启动方法，请参考：
+
+📄 GETTING_STARTED.md
+👉 docs/GETTING_STARTED.md
+
+---
 ## 🎥 配套内容
 
 本项目同步作为 **技术内容创作素材**：
