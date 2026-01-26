@@ -183,8 +183,7 @@ docker run --gpus all --shm-size=32g -it \
 
 完整的环境说明、ROS2 工作空间构建方式、模块启动方法，请参考：
 
-📄 GETTING_STARTED.md
-👉 docs/GETTING_STARTED.md
+📄 [GETTING_STARTED.md](docs/GETTING_STARTED.md)
 
 ---
 ## 🎥 配套内容
