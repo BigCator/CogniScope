@@ -208,4 +208,4 @@ Commercial use requires proper authorization.
 - MMDetection3D
 - Ultralytics YOLO
 - AB3DMOT
-- see_beyond
+- See Beyond Seeing

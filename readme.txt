@@ -1,33 +1,39 @@
 """
 时间：2026.1.13
 完成：
-1.底层支撑环境，docker容器、ros2humble安装、pcd框架安装，mmdetection3d安装，ultralytics安装
-2.传感器驱动，相机（已验证）、激光雷达、4dmm波雷达、红外相机、imu、gnss驱动安装完成 
-  地址：/home/dell/ljw/code/ros2_yolo/src/sensor_driver
-3.数据标注工具
-  3.1SUSTechPOINTS点云数据标注软件 
-     地址：/workspace/ros2_yolo/tools/SUSTechPOINTS/
-4.多模态感知算法层
-  4.1纯激光雷达感知
-     激光雷达单模态检测/跟踪/速度检测，依托pcdet_pvrcnn检测模型+AB3DMOT跟踪模型
-  4.2激光雷达视觉融合
-     激光雷达+视觉检测/跟踪/速度检测，依托mvxnet检测模型（可训练）+AB3DMOT跟踪模型
-  4.3纯视觉感知
-     视觉目标检测，依托yolov8模型
-5.4d毫米波和雷达融合检测 
-   训练测试地址：/home/dell/ljw/code/ros2_yolo/src/see_test
-   ros2地址：/home/dell/ljw/code/ros2_yolo/src/see_beyond_ros2
-6.红外小目标检测
-python /workspace/ros2_yolo/src/Infrared-Small-Target-Detection-master/demo.py
-7.可见光和红外融合目标检测
+1 底层支撑环境，docker容器、ros2humble安装、pcd框架安装，mmdetection3d安装，ultralytics安装
+2 传感器驱动，相机（已验证）、激光雷达、4dmm波雷达、红外相机、imu、gnss驱动安装完成 
+  地址：/workspace/CogniScope/src/sensor_driver
+3 数据标注工具
+  3.1 SUSTechPOINTS点云数据标注软件 地址：/workspace/CogniScope/tools/SUSTechPOINTS/
+4 多模态感知算法层
+  4.1 纯激光雷达感知 地址：/workspace/CogniScope/src/pcdet_ros2
+      激光雷达单模态检测/跟踪/速度检测，依托pcdet_pvrcnn检测模型+AB3DMOT跟踪模型
+  4.2 激光雷达视觉融合 地址：/workspace/CogniScope/src/fusiondet
+      激光雷达+视觉检测/跟踪/速度检测，依托mvxnet检测模型（可训练）+AB3DMOT跟踪模型
+  4.3 纯视觉感知
+     4.3.1 yolov8视觉目标检测与跟踪 地址：/workspace/CogniScope/src/ultralytics_ros
+     4.3.2 yolox + masa视觉目标检测与跟踪 地址：/workspace/CogniScope/src/masa_track
+5 4d毫米波和雷达融合检测 
+   训练测试地址：/workspace/CogniScope/src/see_test
+   ros2地址：/workspace/CogniScope/src/see_beyond_ros2
+6 红外小目标检测 地址：/workspace/CogniScope/src/PSAS_ISTD
+7 可见光和红外融合目标检测 地址：/workspace/CogniScope/src/DDFN
+8 carla模拟环境 地址：/workspace/CogniScope/src/carla_api
+
+updates：
+- 2026.1.29
+1 增加4.3.2小节yolox + masa视觉目标检测与跟踪
+2 增加第8节carla_api，完成感知系统与carla模拟环境的交互
 """
 
 CogniScope/                     # 项目根目录 
 ├── src/                   
-│   └── AB3DMOT-master/         # 跟踪模块
+│   ├── AB3DMOT-master/         # 跟踪模块
+│   ├── DDFN                    # 可见光 + 红外目标检测
 │   ├── driver_ros1/            # ROS 1传感器驱动模块(弃用)
 │   ├── fusiondet/              # 激光雷达 + 视觉可见光融合检测/跟踪/动静态识别/
-│   ├── Infrared-Small-Target-Detection-master/  # 红外小目标检测模块
+│   ├── PSAS_ISTD/              # 红外小目标检测
 │   ├── OpenPCDet/              # OpenPCDet 框架
 │   ├── pcdet_ros2              # 纯激光雷达检测/跟踪/动静态识别
 │   ├── ros2_numpy              # ros2_numpy库
@@ -52,7 +58,7 @@ https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/index.html
 
 
 #注意！注意！注意！
-1.不要直接colcon build
+1 不要直接colcon build
 
 #小鱼香安装humble/换源
 wget http://fishros.com/install -O fishros && . fishros
@@ -137,7 +143,7 @@ docker import my_container.tar my_image:latest
 #保存容器变化
 docker commit cogniscope_v1 cogniscope:v1
 
-2.传感器驱动
+2 传感器驱动
 相机（已验证）、激光雷达、4dmm波雷达、红外相机、imu、gnss驱动安装完成 地址：/workspace/ros2_yolo/src/sensor_driver
 #传感器驱动编译
 cd sensor_driver
@@ -151,7 +157,7 @@ ros2 launch realsense2_camera rs_launch.py
 #一键启动脚本
 sh /workspace/ros2_yolo/src/sensor_driver/scripts/start_sensors_tmux.sh
 
-4.1.激光雷达单模态检测/跟踪/速度检测，依托pcdet_pvrcnn检测模型+AB3DMOT跟踪模型
+4.1 激光雷达单模态检测/跟踪/速度检测，依托pcdet_pvrcnn检测模型+AB3DMOT跟踪模型
 #编译指令
 colcon build --symlink-install --packages-select ros2_numpy pcdet_ros2
 #docker启动
@@ -165,7 +171,7 @@ rviz2
 #运行代码
 ros2 launch pcdet_ros2 pcdet_with_tracking.launch.py
 
-4.2激光雷达+视觉检测/跟踪/速度检测，依托mvxnet检测模型（可训练）+AB3DMOT跟踪模型
+4.2 激光雷达+视觉检测/跟踪/速度检测，依托mvxnet检测模型（可训练）+AB3DMOT跟踪模型
 #相机标定
 matlab软件标定
 标定板15cm
@@ -179,7 +185,9 @@ ros2 run fusiondet test
 ros2 run fusiondet fusiondet
 ros2 run fusiondet fusiondet1
 
-4.3.视觉目标检测，依托yolov8模型
+4.3 视觉目标检测与跟踪
+
+4.3.1 yolov8视觉目标检测与跟踪
 #官方镜像
 docker run --gpus all --shm-size 32g -it --name ros2_yolov8  -v /home/dell/ljw/code/ros2_yolo:/workspace/ros2_yolo -v /tmp/.X11-unix:/tmp/.X11-unix -d -e DISPLAY=$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE --ipc host --network=host --pid=host --security-opt seccomp=unconfined --privileged --cap-add=SYS_PTRACE alpacazip/ultralytics_ros:noetic /bin/bash
 #编译指令
@@ -193,11 +201,25 @@ ros2 bag play /workspace/CogniScope//src/ultralytics_ros/ros2bag/kitti_2011_09_2
 #运行代码
 ros2 launch ultralytics_ros kitti_tracker.launch.xml
 
+4.3.2 yolox + masa 视觉目标检测与跟踪
+#docker启动
+docker start cogniscope_v1 
+docker exec -it cogniscope_v1 /bin/bash 
+cd /workspace/CogniScope 
+#安装依赖包
+python3 -m pip install -r src/masa_track_ws/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple || true 
+#编译指令
+colcon build --symlink-install --base-paths src/masa_track/src --packages-select control_interfaces masa_track 
+#启动节点
+ros2 run masa_track track_node
+#播放数据包
+ros2 bag play /workspace/CogniScope/rosbag2/carla/masa/lidar_data -r 0.5 --topic /carla_camera
+
 5.4d毫米波和雷达融合检测
 #docker启动
-docker start ros2_yolo
-docker exec -it ros2_yolo /bin/bash
-cd /workspace/ros2_yolo/
+docker start cogniscope_v1
+docker exec -it cogniscope_v1 /bin/bash
+cd /workspace/CogniScope/
 #验证
 python3 tools/eval_single_epoch.py \
     --cfg_file /workspace/ros2_yolo/src/see_test/tools/cfgs/kitti_models/car_pedes.yaml \
@@ -218,7 +240,7 @@ python3 tools/train.py \
 #启动数据包 /carla_lidar /carla_radar_1
 ros2 bag play /workspace/CogniScope/rosbag2/carla/rosbag2_2026_01_04-10_32_03 -l
 #编译指令
-cd ~/CogniScope 
+cd /workspace/CogniScope/
 colcon build --symlink-install --packages-select see_beyond_ros2 
 source install/setup.bash
 ros2 launch see_beyond_ros2 see_beyond_ros2.launch.py
@@ -230,9 +252,34 @@ cd /workspace/CogniScope/src/Infrared-Small-Target-Detection-master
 python demo.py
 
 7.可见光和红外融合目标检测
+#运行指令
 cd /workspace/CogniScope/src/multispectral-object-detection-main
 python detect_twostream.py 
 
+8 carla模拟环境 地址：/workspace/CogniScope/src/carla_api
+#编译指令
+colcon build --symlink-install --base-paths src src/carla_api/src --packages-select carla_control carla_control_interfaces sim_node lidar_analysis ompl
+colcon build --symlink-install --base-paths src src/carla_api/src --packages-select carla_control_interfaces sim_node
+rm -rf build/carla_control_interfaces
+rm -rf install/carla_control_interfaces
+rm -rf install/share/carla_control_interfaces 
+rm -rf install/include/carla_control_interfaces
+rm -rf log/latest_build/carla_control_interfaces
+
+colcon build --symlink-install \
+  --base-paths src src/carla_api/src \
+  --packages-select carla_control_interfaces \
+  --allow-overriding carla_control_interfaces
+
+
+# 进入场景目录并运行
+cd /workspace/CogniScope
+source install/setup.bash
+ros2 run sim_node sim_node --ros-args --params-file /workspace/CogniScope/src/carla_api/src/sim_node/雨天人车/yutian2.0.json
+#等车辆落地后启动 carla 控制器：
+cd /workspace/CogniScope
+source install/setup.bash
+ros2 run carla_control carla_control
 
 #常用指令
 python setup.py develop
@@ -261,6 +308,11 @@ touch see_test/COLCON_IGNORE
 #大文件压缩
 tar -cvf - your_folder | zstd -19 -o your_folder.tar.zst
 tar --use-compress-program=zstd -xvf your_folder.tar.zst
+#使用BaiduPCS-Go压缩并上传文件
+tar -cvf - data | zstd -19 -o data.tar.zst
+./BaiduPCS-Go upload /data/ljw/cogniscope_v1/cogniscope_v1.tar  感知系统/CogniScope/imgaes
+./BaiduPCS-Go upload -retry 3 /home/dell/ljw/code/CogniScope/src.zip upload_test/
+ps aux | grep BaiduPCS-Go
 
 ls -l 文件名 #查看软链接
 du -sh directory #查看整个目录大小

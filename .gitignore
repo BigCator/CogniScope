@@ -73,3 +73,10 @@ cmake-build-*/
 ################################
 tmp/
 temp/
+
+################################
+# 9. MODELS
+################################
+src/multispectral-object-detection-main-prune
+src/PSAS_ISTD-prune
+src/carla_api

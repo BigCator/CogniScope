@@ -1,0 +1,180 @@
+一、运行代码
+# 拷贝Docker 镜像，并load
+docker load --input docker_track.tar
+1、创建docker容器
+#docker run --gpus all --shm-size 32g -it --name masa  -v /home:/home -v /tmp/.X11-unix:/tmp/.X11-unix -d -e DISPLAY=$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE --ipc host --security-opt seccomp=unconfined --privileged --cap-add=SYS_PTRACE qyj:track /bin/bash
+2、进入docker容器
+docker start masa
+docker exec -it masa  /bin/bash
+3、配置路径
+cd /home/local/zdtest/track_ws
+//cd /home/dell/ljw/code/zdtest/track_ws
+#colcon build
+source install/setup.bash
+//工控机
+//export PYTHONPATH=$PYTHONPATH:/opt/conda/lib/python3.8/site-packages
+//export PYTHONPATH=$PYTHONPATH:/home/local/zdtest/track_ws/src/masa_track/masa_track/masa
+//服务器
+export PYTHONPATH=$PYTHONPATH:/opt/conda/lib/python3.8/site-packages
+export PYTHONPATH=$PYTHONPATH:/home/dell/ljw/code/zdtest/track_ws/src/masa_track/masa_track/
+4、运行代码
+ros2 run masa_track track_node
+
+
+
+
+二、运行数据包（新开终端）
+1、打开容器
+docker start masa
+docker exec -it masa  /bin/bash
+2、cd /home/local/zdtest/track_ws
+source install/setup.bash
+//工控机
+ros2 bag play /home/local/zdtest/rviz_bag/bag1128/数据包/rosbag2_2024_11_28-10_11_57  -r 0.8
+//服务器
+ros2 bag play /home/dell/ljw/code/zdtest/rviz_bag/bag1128/数据包/rosbag2_2024_11_28-10_11_57  -r 0.8
+
+
+
+
+docker run --gpus all --shm-size 32g -it --name test_rviz12  -v /home:/home -v /tmp/.X11-unix:/tmp/.X11-unix -d -e DISPLAY=$DISPLAY -e GDK_SCALE -e GDK_DPI_SCALE --ipc host --security-opt seccomp=unconfined --privileged --cap-add=SYS_PTRACE qyj:track /bin/bash
+
+
+
+遇到问题
+rviz2: /tmp/binarydeb/ros-foxy-rviz-ogre-vendor-8.2.8/.obj-x86_64-linux-gnu/ogre-v1.12.1-prefix/src/ogre-v1.12.1/OgreMain/include/OgreAxisAlignedBox.h:225：void Ogre::AxisAlignedBox::setExtents(const Vector3&, const Vector3&): 假设 ‘(min.x <= max.x && min.y <= max.y && min.z <= max.z) && "The minimum corner of the box must be less than or equal to maximum corner"’ 失败。
+已放弃 (核心已转储)
+
+运行命令
+docker run --gpus all --shm-size 32g -it --name qyjmasa -v /home:/home glm4:v5 /bin/bash
+已经创建过的容器直接下面的命令来进入
+docker start qyjmasa
+docker exec -it qyjmasa  /bin/bash
+
+cd /home/yjqin/code/zdtest/track_ws
+colcon build
+source install/setup.bash
+export PYTHONPATH=$PYTHONPATH:/opt/conda/lib/python3.8/site-packages
+ros2 run masa_track track_node
+
+回放数据
+ros2 bag play lidar_data/ -r 0.5 --topic /carla_camera
+
+将之前的模型保存为新的镜像
+docker commit masa cogvlm:v1
+将镜像保存为压缩包
+docker save cogvlm:v1 | gzip > cogvlm.tar
+docker save qyj:track | gzip > docker_track.tar
+导入保存的镜像
+docker load --input cogvlm.tar
+查看是否导入成功
+docker images
+
+
+-v /tmp/.X11-unix:/tmp/.X11-unix            #共享本地unix端口
+ -e DISPLAY=unix$DISPLAY                     #修改环境变量DISPLAY
+ -e GDK_SCALE                                #我觉得这两个是与显示效果相关的环境变量，没有细究
+ -e GDK_DPI_SCALE
+
+conda create -n masa2 python=3.8
+conda activate masa2
+pip install torch==1.13.0+cu116 torchvision==0.14.0+cu116 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu116
+pip install -U openmim                                                                                                                                             
+mim install mmengine -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu116/torch1.13/index.html
+pip install git+https://github.com/open-mmlab/mmdetection.git@v3.3.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+source install/setup.bash
+ros2 run masa_track track_node
+export PYTHONPATH=$PYTHONPATH:/home/yjqin/anaconda3/envs/masa2/lib/python3.8/site-packages
+docker 路径
+export PYTHONPATH=$PYTHONPATH:/opt/conda/envs/masa/lib/python3.8/site-packages
+export PYTHONPATH=$PYTHONPATH:/opt/conda/lib/python3.8/site-packages
+运行报错：
+ from matplotlib import _blocking_input, backend_bases, _docstring, projections
+  File "/home/yjqin/anaconda3/envs/masa2/lib/python3.8/site-packages/matplotlib/projections/__init__.py", line 58, in <module>
+    from mpl_toolkits.mplot3d import Axes3D
+  File "/usr/local/lib/python3.8/dist-packages/mpl_toolkits/mplot3d/__init__.py", line 1, in <module>
+    from .axes3d import Axes3D
+  File "/usr/local/lib/python3.8/dist-packages/mpl_toolkits/mplot3d/axes3d.py", line 34, in <module>
+    from matplotlib.axes import Axes, rcParams
+ImportError: cannot import name 'rcParams' from 'matplotlib.axes' (/home/yjqin/anaconda3/envs/masa2/lib/python3.8/site-packages/matplotlib/axes/__init__.py)
+找到这一个文件，在报错中点击链接：
+ File "/home/yjqin/anaconda3/envs/masa2/lib/python3.8/site-packages/matplotlib/projections/__init__.py", line 58, in <module>
+ 将这行代码注释掉from mpl_toolkits.mplot3d import Axes3D
+ Axes3D 删掉
+
+nvcc -V  显示cuda 11.6, 应该安装torch1.13,但是报错
+docker 中安装torch1.13报错，安装2.4不报错，但是和mmcv版本不匹配，mmcv要2.1.0
+
+尝试安装torch2.0
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+安装对应版本mmcv
+pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu117/torch2.0/index.html
+安装torch1.12.1
+pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu116
+报错
+安装对应版本的mmcv
+
+安装torch1.12.0
+
+(masa) root@b17d0f006daf:/home/yjqin/code/zdtest/track_ws# python 
+Python 3.8.20 | packaged by conda-forge | (default, Sep 30 2024, 17:52:49) 
+[GCC 13.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import torch
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/opt/conda/envs/masa/lib/python3.8/site-packages/torch/__init__.py", line 202, in <module>
+    from torch._C import *  # noqa: F403
+ImportError: /opt/hpcx/ompi/lib/libmpi.so.40: undefined symbol: opal_hwloc201_hwloc_get_type_depth
+
+
+报错
+ from cv_bridge import CvBridge
+  File "/opt/ros/foxy/lib/python3.8/site-packages/cv_bridge/__init__.py", line 6, in <module>
+    from cv_bridge.boost.cv_bridge_boost import cvtColorForDisplay, getCvType
+SystemError: initialization of cv_bridge_boost raised unreported exception
+解决：
+先import cv2
+再from cv_bridge import CvBridge
+
+
+又报错
+AttributeError: partially initialized module ‘cv2‘ has no attribute ‘_registerMatType‘
+解决：
+pip install "opencv-python-headless<4.3"  -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+报错
+ File "/opt/conda/lib/python3.8/site-packages/matplotlib/docstring.py", line 57, in __missing__
+    raise KeyError(key)
+KeyError: 'scale'
+解决
+pip install scale -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+vi /opt/conda/lib/python3.8/site-packages/matplotlib/projections/__init__.py
+i 进入编写状态，删除报错的包
+:wq 保存并退出
+
+/home/yjqin/code/zdtest/track_ws/src/masa_track/masa_track/masa/datasets/evaluation/__init__.py
+内容注释掉
+
+
+报错
+/opt/conda/lib/python3.8/site-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+解决
+在/src/masa_track/setup.cfg中按报错修改
+
+报错
+ModuleNotFoundError: No module named 'masa'
+解决
+export PYTHONPATH=$PYTHONPATH:/home/dell/ljw/code/zdtest/track_ws/src/masa_track/masa_track/
+
+
+
+
+
+
+
